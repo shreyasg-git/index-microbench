@@ -54,8 +54,8 @@ out_txn_ycsbkey = output_dir + 'txn_' + 'ycsbkey' + '_' + workload
 out_load = output_dir + 'load_' + key_type + '_' + workload
 out_txn = output_dir + 'txn_' + key_type + '_' + workload
 
-cmd_ycsb_load = ycsb_dir + 'bin/ycsb load basic -P ' + workload_dir + workload + ' -s > ' + out_ycsb_load
-cmd_ycsb_txn = ycsb_dir + 'bin/ycsb run basic -P ' + workload_dir + workload + ' -s > ' + out_ycsb_txn
+cmd_ycsb_load = 'python2 ' + ycsb_dir + 'bin/ycsb load basic -P ' + workload_dir + workload + ' -s > ' + out_ycsb_load
+cmd_ycsb_txn = 'python2 ' + ycsb_dir + 'bin/ycsb run basic -P ' + workload_dir + workload + ' -s > ' + out_ycsb_txn
 
 os.system(cmd_ycsb_load)
 os.system(cmd_ycsb_txn)

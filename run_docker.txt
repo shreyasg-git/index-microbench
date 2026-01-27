@@ -1,0 +1,1774 @@
+(base) shreyasbg@anton ~$ cd Desktop/dbms/index-microbench/
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ agrv .
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$    make generate_workload
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+./generate_all_workloads.sh
+workload = workloade
+key type = monoint
+sh: 1: cannot create workloads/ycsb_load_monoint_workloade: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_monoint_workloade: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_monoint_workloade'
+mv: cannot stat 'workloads/load_monoint_workloade': No such file or directory
+mv: cannot stat 'workloads/txn_monoint_workloade': No such file or directory
+workload = workloadc
+key type = monoint
+sh: 1: cannot create workloads/ycsb_load_monoint_workloadc: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_monoint_workloadc: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_monoint_workloadc'
+mv: cannot stat 'workloads/load_monoint_workloadc': No such file or directory
+mv: cannot stat 'workloads/txn_monoint_workloadc': No such file or directory
+workload = workloada
+key type = monoint
+sh: 1: cannot create workloads/ycsb_load_monoint_workloada: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_monoint_workloada: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_monoint_workloada'
+mv: cannot stat 'workloads/load_monoint_workloada': No such file or directory
+mv: cannot stat 'workloads/txn_monoint_workloada': No such file or directory
+workload = workloade
+key type = randint
+sh: 1: cannot create workloads/ycsb_load_randint_workloade: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_randint_workloade: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_randint_workloade'
+mv: cannot stat 'workloads/load_randint_workloade': No such file or directory
+mv: cannot stat 'workloads/txn_randint_workloade': No such file or directory
+workload = workloadc
+key type = randint
+sh: 1: cannot create workloads/ycsb_load_randint_workloadc: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_randint_workloadc: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_randint_workloadc'
+mv: cannot stat 'workloads/load_randint_workloadc': No such file or directory
+mv: cannot stat 'workloads/txn_randint_workloadc': No such file or directory
+workload = workloada
+key type = randint
+sh: 1: cannot create workloads/ycsb_load_randint_workloada: Directory nonexistent
+sh: 1: cannot create workloads/ycsb_txn_randint_workloada: Directory nonexistent
+Traceback (most recent call last):
+  File "gen_workload.py", line 65, in <module>
+    f_load = open (out_ycsb_load, 'r')
+IOError: [Errno 2] No such file or directory: 'workloads/ycsb_load_randint_workloada'
+mv: cannot stat 'workloads/load_randint_workloada': No such file or directory
+mv: cannot stat 'workloads/txn_randint_workloada': No such file or directory
+make: *** [Makefile:65: generate_workload] Error 1
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ mkdir workloads
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$    make generate_workload
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+./generate_all_workloads.sh
+workload = workloade
+key type = monoint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+workload = workloadc
+key type = monoint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+workload = workloada
+key type = monoint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+workload = workloade
+key type = randint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+workload = workloadc
+key type = randint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+workload = workloada
+key type = randint
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+python2: can't open file 'YCSB/bin/ycsb': [Errno 2] No such file or directory
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ mkdir workloads
+mkdir: cannot create directory ‘workloads’: File exists
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ trash:///index-microbench/^CSB
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make generate_workload
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+./generate_all_workloads.sh
+workload = workloade
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:51:55:887 0 sec: 801 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=864, Max=467, Min=14, Avg=24.22, 90=29, 99=53, 99.9=178, 99.99=467] 
+2026-01-27 18:52:05:846 10 sec: 5935220 operations; 593382.56 current ops/sec; est completion in 1 minutes [INSERT: Count=5934554, Max=65727, Min=1, Avg=1.17, 90=1, 99=3, 99.9=7, 99.99=20] 
+2026-01-27 18:52:15:846 20 sec: 11816920 operations; 588170 current ops/sec; est completion in 1 minutes [INSERT: Count=5881704, Max=74239, Min=1, Avg=1.17, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:52:25:846 30 sec: 17768876 operations; 595195.6 current ops/sec; est completion in 55 seconds [INSERT: Count=5951957, Max=84799, Min=1, Avg=1.15, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:52:35:846 40 sec: 23673531 operations; 590465.5 current ops/sec; est completion in 45 seconds [INSERT: Count=5904652, Max=48159, Min=1, Avg=1.15, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:52:45:846 50 sec: 29566183 operations; 589265.2 current ops/sec; est completion in 35 seconds [INSERT: Count=5892648, Max=61791, Min=1, Avg=1.15, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:52:55:846 60 sec: 35624184 operations; 605800.1 current ops/sec; est completion in 25 seconds [INSERT: Count=6057962, Max=30463, Min=1, Avg=1.12, 90=1, 99=3, 99.9=6, 99.99=19] 
+2026-01-27 18:53:05:846 70 sec: 41361984 operations; 573780 current ops/sec; est completion in 15 seconds [INSERT: Count=5737643, Max=78847, Min=1, Avg=1.16, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:53:15:846 80 sec: 47000639 operations; 563865.5 current ops/sec; est completion in 6 seconds [INSERT: Count=5638845, Max=94015, Min=1, Avg=1.17, 90=1, 99=3, 99.9=7, 99.99=21] 
+2026-01-27 18:53:21:305 85 sec: 50000000 operations; 549534.81 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2999171, Max=38943, Min=1, Avg=1.17, 90=2, 99=3, 99.9=7, 99.99=24] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:53:21:498 0 sec: 579 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=32, Max=43, Min=20, Avg=25.38, 90=33, 99=43, 99.9=43, 99.99=43] [SCAN: Count=698, Max=300, Min=19, Avg=27.31, 90=34, 99=56, 99.9=159, 99.99=300] 
+2026-01-27 18:53:31:458 10 sec: 4902276 operations; 490169.7 current ops/sec; est completion in 11 seconds [INSERT: Count=245531, Max=68, Min=1, Avg=1.18, 90=2, 99=3, 99.9=9, 99.99=24] [SCAN: Count=4656834, Max=120255, Min=1, Avg=1.27, 90=2, 99=3, 99.9=9, 99.99=26] 
+2026-01-27 18:53:41:458 20 sec: 9991018 operations; 508874.2 current ops/sec; est completion in 1 seconds [INSERT: Count=253945, Max=202, Min=1, Avg=1.14, 90=1, 99=3, 99.9=7, 99.99=28] [SCAN: Count=4834339, Max=79807, Min=1, Avg=1.23, 90=2, 99=3, 99.9=7, 99.99=26] 
+2026-01-27 18:53:41:479 20 sec: 10000000 operations; 449100 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=440, Max=7, Min=1, Avg=1.29, 90=2, 99=4, 99.9=7, 99.99=7] [SCAN: Count=8181, Max=24, Min=1, Avg=1.26, 90=2, 99=4, 99.9=8, 99.99=16] 
+workload = workloadc
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:56:04:071 0 sec: 564 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=643, Max=411, Min=15, Avg=26.4, 90=34, 99=69, 99.9=173, 99.99=411] 
+2026-01-27 18:56:14:037 10 sec: 6072479 operations; 607191.5 current ops/sec; est completion in 1 minutes [INSERT: Count=6072266, Max=1149, Min=1, Avg=1.13, 90=1, 99=3, 99.9=7, 99.99=23] 
+2026-01-27 18:56:24:037 20 sec: 12263123 operations; 619064.4 current ops/sec; est completion in 1 minutes [INSERT: Count=6190487, Max=74943, Min=1, Avg=1.13, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:56:34:037 30 sec: 18258810 operations; 599568.7 current ops/sec; est completion in 53 seconds [INSERT: Count=5995579, Max=220031, Min=1, Avg=1.19, 90=1, 99=3, 99.9=7, 99.99=18] 
+2026-01-27 18:56:44:037 40 sec: 24373849 operations; 611503.9 current ops/sec; est completion in 43 seconds [INSERT: Count=6115030, Max=146687, Min=1, Avg=1.16, 90=1, 99=3, 99.9=7, 99.99=18] 
+2026-01-27 18:56:54:037 50 sec: 30559250 operations; 618540.1 current ops/sec; est completion in 32 seconds [INSERT: Count=6185419, Max=79295, Min=1, Avg=1.13, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:57:04:037 60 sec: 36375276 operations; 581602.6 current ops/sec; est completion in 23 seconds [INSERT: Count=5816057, Max=85439, Min=1, Avg=1.21, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:57:14:037 70 sec: 41965676 operations; 559040 current ops/sec; est completion in 14 seconds [INSERT: Count=5590382, Max=80191, Min=1, Avg=1.21, 90=2, 99=3, 99.9=8, 99.99=20] 
+2026-01-27 18:57:24:037 80 sec: 47596339 operations; 563066.3 current ops/sec; est completion in 5 seconds [INSERT: Count=5630604, Max=120319, Min=1, Avg=1.21, 90=2, 99=3, 99.9=8, 99.99=19] 
+2026-01-27 18:57:28:287 84 sec: 50000000 operations; 565567.29 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2403533, Max=54207, Min=1, Avg=1.22, 90=1, 99=3, 99.9=8, 99.99=32] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:57:28:478 0 sec: 435 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=485, Max=410, Min=17, Avg=29.24, 90=38, 99=81, 99.9=410, 99.99=410] 
+2026-01-27 18:57:38:444 10 sec: 5190021 operations; 518958.6 current ops/sec; est completion in 10 seconds [READ: Count=5189737, Max=111359, Min=1, Avg=1.2, 90=1, 99=3, 99.9=8, 99.99=26] 
+2026-01-27 18:57:47:080 18 sec: 10000000 operations; 556968.39 current ops/sec; [READ: Count=4809778, Max=7707, Min=1, Avg=1.14, 90=1, 99=3, 99.9=7, 99.99=18] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] 
+workload = workloada
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:00:00:286 0 sec: 487 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=532, Max=1465, Min=34, Avg=52.32, 90=60, 99=104, 99.9=276, 99.99=1465] 
+2026-01-27 19:00:10:235 10 sec: 7551474 operations; 755098.7 current ops/sec; est completion in 57 seconds [INSERT: Count=7551275, Max=69247, Min=0, Avg=0.41, 90=1, 99=3, 99.9=7, 99.99=24] 
+2026-01-27 19:00:20:235 20 sec: 15623101 operations; 807162.7 current ops/sec; est completion in 45 seconds [INSERT: Count=8071540, Max=80127, Min=0, Avg=0.23, 90=1, 99=2, 99.9=5, 99.99=16] 
+2026-01-27 19:00:30:235 30 sec: 23501042 operations; 787794.1 current ops/sec; est completion in 34 seconds [INSERT: Count=7877921, Max=63103, Min=0, Avg=0.38, 90=1, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:00:40:235 40 sec: 31336388 operations; 783534.6 current ops/sec; est completion in 24 seconds [INSERT: Count=7835371, Max=126719, Min=0, Avg=0.3, 90=1, 99=2, 99.9=5, 99.99=14] 
+2026-01-27 19:00:50:235 50 sec: 39107065 operations; 777067.7 current ops/sec; est completion in 14 seconds [INSERT: Count=7770665, Max=93055, Min=0, Avg=0.35, 90=1, 99=2, 99.9=5, 99.99=14] 
+2026-01-27 19:01:00:235 60 sec: 47040662 operations; 793359.7 current ops/sec; est completion in 4 seconds [INSERT: Count=7933655, Max=277247, Min=0, Avg=0.21, 90=1, 99=2, 99.9=5, 99.99=16] 
+2026-01-27 19:01:03:842 63 sec: 50000000 operations; 820443.03 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2959041, Max=700, Min=0, Avg=0.27, 90=1, 99=2, 99.9=5, 99.99=14] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:01:04:004 0 sec: 425 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=237, Max=52, Min=15, Avg=19.44, 90=26, 99=48, 99.9=52, 99.99=52] [UPDATE: Count=254, Max=632, Min=27, Avg=38.08, 90=46, 99=73, 99.9=632, 99.99=632] 
+2026-01-27 19:01:13:975 10 sec: 7247348 operations; 724692.3 current ops/sec; est completion in 4 seconds [READ: Count=3624959, Max=42911, Min=0, Avg=0.11, 90=0, 99=2, 99.9=4, 99.99=14] [UPDATE: Count=3623678, Max=1391, Min=0, Avg=0.55, 90=1, 99=2, 99.9=5, 99.99=22] 
+2026-01-27 19:01:17:735 13 sec: 10000000 operations; 731893.65 current ops/sec; [READ: Count=1375340, Max=19823, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [UPDATE: Count=1375532, Max=59135, Min=0, Avg=0.55, 90=1, 99=2, 99.9=4, 99.99=14] 
+workload = workloade
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:03:13:390 0 sec: 781 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=851, Max=288, Min=14, Avg=22.76, 90=27, 99=55, 99.9=192, 99.99=288] 
+2026-01-27 19:03:23:350 10 sec: 9270886 operations; 927010.5 current ops/sec; est completion in 44 seconds [INSERT: Count=9270338, Max=7419, Min=0, Avg=0.07, 90=0, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:03:33:350 20 sec: 18292990 operations; 902210.4 current ops/sec; est completion in 35 seconds [INSERT: Count=9021801, Max=135551, Min=0, Avg=0.11, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:03:43:350 30 sec: 27721600 operations; 942861 current ops/sec; est completion in 25 seconds [INSERT: Count=9428904, Max=76671, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:03:53:350 40 sec: 37088927 operations; 936732.7 current ops/sec; est completion in 14 seconds [INSERT: Count=9367319, Max=110079, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:04:03:350 50 sec: 46447635 operations; 935870.8 current ops/sec; est completion in 4 seconds [INSERT: Count=9358695, Max=51199, Min=0, Avg=0.06, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:04:07:287 53 sec: 50000000 operations; 902302.51 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=3552092, Max=116671, Min=0, Avg=0.12, 90=0, 99=2, 99.9=4, 99.99=14] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:04:07:460 0 sec: 537 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=35, Max=64, Min=17, Avg=24.74, 90=35, 99=64, 99.9=64, 99.99=64] [SCAN: Count=593, Max=298, Min=16, Avg=23.99, 90=29, 99=61, 99.9=242, 99.99=298] 
+2026-01-27 19:04:17:426 10 sec: 7949452 operations; 794891.5 current ops/sec; est completion in 3 seconds [INSERT: Count=396710, Max=1095, Min=0, Avg=0.1, 90=0, 99=2, 99.9=5, 99.99=21] [SCAN: Count=7553159, Max=108927, Min=0, Avg=0.15, 90=0, 99=2, 99.9=5, 99.99=19] 
+2026-01-27 19:04:19:870 12 sec: 10000000 operations; 839013.09 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=102454, Max=48, Min=0, Avg=0.04, 90=0, 99=2, 99.9=4, 99.99=14] [SCAN: Count=1947049, Max=563, Min=0, Avg=0.05, 90=0, 99=2, 99.9=4, 99.99=17] 
+workload = workloadc
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:05:11:527 0 sec: 757 operations; 757000 current ops/sec; est completion in 1 minutes [INSERT: Count=843, Max=269, Min=13, Avg=17.45, 90=23, 99=40, 99.9=128, 99.99=269] 
+2026-01-27 19:05:21:496 10 sec: 9562598 operations; 956184.1 current ops/sec; est completion in 43 seconds [INSERT: Count=9562049, Max=41055, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=16] 
+2026-01-27 19:05:31:496 20 sec: 19215073 operations; 965247.5 current ops/sec; est completion in 33 seconds [INSERT: Count=9652450, Max=233087, Min=0, Avg=0.09, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:05:41:496 30 sec: 28913148 operations; 969807.5 current ops/sec; est completion in 22 seconds [INSERT: Count=9698098, Max=81279, Min=0, Avg=0.06, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:05:51:496 40 sec: 38315129 operations; 940198.1 current ops/sec; est completion in 13 seconds [INSERT: Count=9402038, Max=206463, Min=0, Avg=0.09, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:06:01:496 50 sec: 44612427 operations; 629729.8 current ops/sec; est completion in 7 seconds [INSERT: Count=6297224, Max=207615, Min=0, Avg=0.64, 90=1, 99=2, 99.9=11, 99.99=48] 
+2026-01-27 19:06:07:304 55 sec: 50000000 operations; 927612.43 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=5387298, Max=54495, Min=0, Avg=0.1, 90=0, 99=2, 99.9=5, 99.99=17] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:06:07:515 0 sec: 468 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=518, Max=297, Min=13, Avg=22.76, 90=29, 99=53, 99.9=113, 99.99=297] 
+2026-01-27 19:06:17:484 10 sec: 7693062 operations; 769259.4 current ops/sec; est completion in 3 seconds [READ: Count=7692822, Max=206335, Min=0, Avg=0.17, 90=0, 99=2, 99.9=5, 99.99=18] 
+2026-01-27 19:06:20:751 13 sec: 10000000 operations; 706133.46 current ops/sec; [READ: Count=2306660, Max=132735, Min=0, Avg=0.29, 90=0, 99=2, 99.9=5, 99.99=16] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] 
+workload = workloada
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:07:12:170 0 sec: 292 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=318, Max=653, Min=27, Avg=44.65, 90=55, 99=95, 99.9=653, 99.99=653] 
+2026-01-27 19:07:22:142 10 sec: 7817459 operations; 781716.7 current ops/sec; est completion in 54 seconds [INSERT: Count=7817479, Max=84351, Min=0, Avg=0.24, 90=1, 99=2, 99.9=6, 99.99=22] 
+2026-01-27 19:07:32:141 20 sec: 15540923 operations; 772346.4 current ops/sec; est completion in 45 seconds [INSERT: Count=7723373, Max=75647, Min=0, Avg=0.58, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:07:42:141 30 sec: 22934823 operations; 739390 current ops/sec; est completion in 36 seconds [INSERT: Count=7393875, Max=184063, Min=0, Avg=0.6, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:07:52:141 40 sec: 30693614 operations; 775879.1 current ops/sec; est completion in 26 seconds [INSERT: Count=7758818, Max=88575, Min=0, Avg=0.38, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:02:141 50 sec: 38586191 operations; 789257.7 current ops/sec; est completion in 15 seconds [INSERT: Count=7892573, Max=7103, Min=0, Avg=0.57, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:12:141 60 sec: 46330234 operations; 774404.3 current ops/sec; est completion in 5 seconds [INSERT: Count=7743976, Max=128383, Min=0, Avg=0.5, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:16:844 64 sec: 50000000 operations; 780303.21 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=3669588, Max=13959, Min=0, Avg=0.65, 90=1, 99=2, 99.9=5, 99.99=16] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:08:17:010 0 sec: 364 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=177, Max=286, Min=17, Avg=27.49, 90=31, 99=45, 99.9=286, 99.99=286] [UPDATE: Count=236, Max=708, Min=30, Avg=48.06, 90=56, 99=90, 99.9=708, 99.99=708] 
+2026-01-27 19:08:26:975 10 sec: 7148931 operations; 714785.22 current ops/sec; est completion in 4 seconds [READ: Count=3574222, Max=1182, Min=0, Avg=0.12, 90=0, 99=2, 99.9=5, 99.99=20] [UPDATE: Count=3574947, Max=60799, Min=0, Avg=0.86, 90=1, 99=2, 99.9=7, 99.99=28] 
+2026-01-27 19:08:30:902 13 sec: 10000000 operations; 726017.06 current ops/sec; [READ: Count=1424838, Max=445, Min=0, Avg=0.08, 90=0, 99=2, 99.9=5, 99.99=18] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [UPDATE: Count=1425580, Max=103231, Min=0, Avg=0.64, 90=1, 99=2, 99.9=5, 99.99=17] 
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ touch runs.txt
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ open run
+run_all.sh  runs.txt    
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ open runs.txt 
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ date
+Tue Jan 27 07:10:36 PM IST 2026
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ agrv .
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all TYPE=masstree
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+make: g++-5: No such file or directory
+make: *** [Makefile:41: workload.o] Error 127
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all INDEX_TYPE=masstree
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+make: g++-5: No such file or directory
+make: *** [Makefile:41: workload.o] Error 127
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all TYPE=masstree
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++ -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from ./papi_util.cpp:2,
+                 from workload.cpp:4:
+./microbench.h:10:10: fatal error: papi.h: No such file or directory
+   10 | #include <papi.h>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [Makefile:41: workload.o] Error 1
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all TYPE=masstree
+^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ ^C^C
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt-get update && sudo apt-get install -y gcc-5 g++-5
+[sudo] password for shreyasbg: 
+Get:1 file:/var/cuda-repo-ubuntu2204-12-8-local  InRelease [1,572 B]
+Get:1 file:/var/cuda-repo-ubuntu2204-12-8-local  InRelease [1,572 B]
+Hit:2 http://repo.mysql.com/apt/ubuntu jammy InRelease                                                                                           
+Hit:3 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease                                                                                                                                                                            
+Hit:4 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease                                                                                                                                                                    
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease                                                                                                                                                                                 
+Hit:6 https://download.docker.com/linux/ubuntu jammy InRelease                                                                                                                                                                                
+Ign:7 https://pkg.jenkins.io/debian-stable binary/ InRelease                                                                                                                                                                                  
+Hit:8 https://brave-browser-apt-release.s3.brave.com stable InRelease                                                                                                                                                                         
+Hit:9 http://apt.pop-os.org/proprietary jammy InRelease                                                                                                                                                                                       
+Get:10 https://pkg.jenkins.io/debian-stable binary/ Release [2,044 B]                                                                                                                                                                         
+Get:11 https://pkg.jenkins.io/debian-stable binary/ Release.gpg [833 B]                                                                                                                                                                       
+Hit:12 https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 InRelease                                                                                                                                                                    
+Err:11 https://pkg.jenkins.io/debian-stable binary/ Release.gpg                                                                                                                                                                               
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+Hit:13 http://apt.pop-os.org/release jammy InRelease                                                                                                                                                                                   
+Hit:14 https://ppa.launchpadcontent.net/danielrichter2007/grub-customizer/ubuntu jammy InRelease                                                                                                                                       
+Hit:15 https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy InRelease                                                                                                             
+Hit:16 https://debrepo.freedownloadmanager.org jammy InRelease                                                                                                                               
+Hit:17 http://apt.pop-os.org/ubuntu jammy InRelease                                                                                                     
+Hit:18 https://ppa.launchpadcontent.net/obsproject/obs-studio/ubuntu jammy InRelease                                              
+Hit:20 https://ppa.launchpadcontent.net/pch/ppa-skychart/ubuntu jammy InRelease                                                   
+Hit:21 http://apt.pop-os.org/ubuntu jammy-security InRelease                                                
+Hit:22 https://ppa.launchpadcontent.net/pipewire-debian/pipewire-upstream/ubuntu jammy InRelease            
+Hit:23 https://ngrok-agent.s3.amazonaws.com buster InRelease                                                
+Hit:24 https://ppa.launchpadcontent.net/rael-gc/rvm/ubuntu jammy InRelease                                  
+Hit:25 http://apt.pop-os.org/ubuntu jammy-updates InRelease                                                              
+Hit:26 https://ppa.launchpadcontent.net/rvm/smplayer/ubuntu jammy InRelease                                              
+Hit:27 https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/jammy pgadmin4 InRelease   
+Hit:28 http://apt.pop-os.org/ubuntu jammy-backports InRelease                         
+Hit:29 https://packages.redis.io/deb jammy InRelease                                       
+Hit:30 https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev antigravity-debian InRelease                                                                                                                                     
+Hit:31 https://download.sublimetext.com apt/stable/ InRelease                                                                                                                                                                                 
+Get:32 https://apt.syncthing.net syncthing InRelease [24.2 kB]
+Ign:33 https://nuts.vysor.io/apt ./ InRelease              
+Hit:19 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease
+Ign:34 https://nuts.vysor.io/apt ./ Release                                                                                                                                                                                                   
+Ign:35 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:35 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:35 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:35 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:35 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:35 https://nuts.vysor.io/apt ./ Packages
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en
+Get:35 https://nuts.vysor.io/apt ./ Packages [627 B]
+Ign:36 https://nuts.vysor.io/apt ./ Translation-en_US
+Ign:37 https://nuts.vysor.io/apt ./ Translation-en
+Fetched 25.7 kB in 33s (788 B/s)
+Reading package lists... Done
+N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease' doesn't support architecture 'i386'
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://pkg.jenkins.io/debian-stable binary/ Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+W: https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/jammy/dists/pgadmin4/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev antigravity-debian InRelease' doesn't support architecture 'i386'
+W: Failed to fetch https://pkg.jenkins.io/debian-stable/binary/Release.gpg  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package g++-5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  gcc-10-test-results gcc-9-test-results:i386 gcc-12-test-results:i386 gcc-11-test-results:i386 gcc-10-test-results:i386 gcc-9-test-results gcc-12-test-results gcc-11-test-results
+
+E: Unable to locate package gcc-5
+E: Package 'g++-5' has no installation candidate
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt-get update && sudo apt-get install -y gcc-5
+Reading package lists... Done
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1901 (packagekitd)
+N: Be aware that removing the lock file is not a solution and may break your system.
+E: Unable to lock directory /var/lib/apt/lists/
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt-get update && sudo apt-get install -y gcc-5
+Reading package lists... Done
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1901 (packagekitd)
+N: Be aware that removing the lock file is not a solution and may break your system.
+E: Unable to lock directory /var/lib/apt/lists/
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt-get update && sudo apt-get install -y gcc-5
+Reading package lists... Done
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1901 (packagekitd)
+N: Be aware that removing the lock file is not a solution and may break your system.
+E: Unable to lock directory /var/lib/apt/lists/
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt-get update && sudo apt-get install -y gcc-5
+Get:1 file:/var/cuda-repo-ubuntu2204-12-8-local  InRelease [1,572 B]
+Get:1 file:/var/cuda-repo-ubuntu2204-12-8-local  InRelease [1,572 B]
+Hit:2 http://repo.mysql.com/apt/ubuntu jammy InRelease                                                                                                                                                                                        
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease                                                                                                                                                                                 
+Hit:4 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease                                                                                                                                                                            
+Hit:5 https://ppa.launchpadcontent.net/danielrichter2007/grub-customizer/ubuntu jammy InRelease                                                                                                                                               
+Hit:6 https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy InRelease                                                                                                                                                               
+Hit:7 https://debrepo.freedownloadmanager.org jammy InRelease                                                                                                                                                                                 
+Hit:8 https://ppa.launchpadcontent.net/obsproject/obs-studio/ubuntu jammy InRelease                                                                                                                                                           
+Hit:9 https://ppa.launchpadcontent.net/pch/ppa-skychart/ubuntu jammy InRelease                                                                                                                                                                
+Hit:10 https://ngrok-agent.s3.amazonaws.com buster InRelease                                                                                                                                                                                  
+Hit:12 https://ppa.launchpadcontent.net/pipewire-debian/pipewire-upstream/ubuntu jammy InRelease                                                                                                                                              
+Hit:13 https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev antigravity-debian InRelease                                                                                                                                    
+Hit:14 https://ppa.launchpadcontent.net/rael-gc/rvm/ubuntu jammy InRelease                                                                                                                                             
+Hit:15 https://ppa.launchpadcontent.net/rvm/smplayer/ubuntu jammy InRelease                                                                                                                                                                   
+Hit:16 https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/jammy pgadmin4 InRelease                                                                                                                                                           
+Hit:17 https://packages.redis.io/deb jammy InRelease                                                                                                                                                                   
+Hit:18 https://download.sublimetext.com apt/stable/ InRelease                                                                                                                                                                                 
+Get:19 https://apt.syncthing.net syncthing InRelease [24.2 kB]                                                                                                                                                                                
+Ign:20 https://nuts.vysor.io/apt ./ InRelease                                                                                                                                                                                                 
+Ign:21 https://pkg.jenkins.io/debian-stable binary/ InRelease                                                                                                                                                                                 
+Get:22 https://pkg.jenkins.io/debian-stable binary/ Release [2,044 B]                                                                                                                                                                         
+Get:23 https://pkg.jenkins.io/debian-stable binary/ Release.gpg [833 B]                                                                                                                                                                       
+Err:23 https://pkg.jenkins.io/debian-stable binary/ Release.gpg                                                                                                                                                                               
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+Hit:24 https://download.docker.com/linux/ubuntu jammy InRelease                                                                                                                                                                               
+Hit:25 https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 InRelease                                                                                                                                                                    
+Hit:11 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease                                                                                                                                                                          
+Hit:26 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease                                                                                                                                                                   
+Ign:27 https://nuts.vysor.io/apt ./ Release                                                                                                                                                                                                   
+Ign:28 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Hit:30 https://brave-browser-apt-release.s3.brave.com stable InRelease                                                                                                                                                                        
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:28 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Hit:32 http://apt.pop-os.org/proprietary jammy InRelease                                                                                                                                                                                      
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Hit:33 http://apt.pop-os.org/release jammy InRelease                                                                                                                                                                                          
+Hit:34 http://apt.pop-os.org/ubuntu jammy InRelease                                                                                                                                                                                           
+Hit:35 http://apt.pop-os.org/ubuntu jammy-security InRelease                                                                                                                                                                                  
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Hit:36 http://apt.pop-os.org/ubuntu jammy-updates InRelease                                                                                                                                                                                   
+Ign:28 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Hit:37 http://apt.pop-os.org/ubuntu jammy-backports InRelease                                                                                                                                                                                 
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:28 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US                                                                                                                                                                                         
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en                                                                                                                                                                                            
+Ign:28 https://nuts.vysor.io/apt ./ Packages                                                                                                                                                                                                  
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en
+Ign:28 https://nuts.vysor.io/apt ./ Packages
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en
+Get:28 https://nuts.vysor.io/apt ./ Packages [627 B]
+Ign:29 https://nuts.vysor.io/apt ./ Translation-en_US
+Ign:31 https://nuts.vysor.io/apt ./ Translation-en
+Fetched 25.7 kB in 22s (1,145 B/s)
+Reading package lists... Done
+N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease' doesn't support architecture 'i386'
+N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev antigravity-debian InRelease' doesn't support architecture 'i386'
+W: https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/jammy/dists/pgadmin4/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://pkg.jenkins.io/debian-stable binary/ Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+W: https://repo.mongodb.org/apt/ubuntu/dists/focal/mongodb-org/6.0/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: Failed to fetch https://pkg.jenkins.io/debian-stable/binary/Release.gpg  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7198F4B714ABFC68
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package gcc-5
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all TYPE=masstree
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++ -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from ./papi_util.cpp:2,
+                 from workload.cpp:4:
+./microbench.h:10:10: fatal error: papi.h: No such file or directory
+   10 | #include <papi.h>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [Makefile:41: workload.o] Error 1
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt install g++-5
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package g++-5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  gcc-10-test-results gcc-9-test-results:i386 gcc-12-test-results:i386 gcc-11-test-results:i386 gcc-10-test-results:i386 gcc-9-test-results gcc-12-test-results gcc-11-test-results
+
+E: Package 'g++-5' has no installation candidate
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt install gcc-5 g++-5
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package g++-5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  gcc-10-test-results gcc-9-test-results:i386 gcc-12-test-results:i386 gcc-11-test-results:i386 gcc-10-test-results:i386 gcc-9-test-results gcc-12-test-results gcc-11-test-results
+
+E: Unable to locate package gcc-5
+E: Package 'g++-5' has no installation candidate
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo apt install libpapi-dev
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libpython3-dev libpython3.10-dev python3-dev python3-wheel python3.10-dev
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libpapi6.0 libpfm4
+The following NEW packages will be installed:
+  libpapi-dev libpapi6.0 libpfm4
+0 upgraded, 3 newly installed, 0 to remove and 232 not upgraded.
+Need to get 927 kB of archives.
+After this operation, 4,375 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://apt.pop-os.org/ubuntu jammy-updates/main amd64 libpfm4 amd64 4.11.1+git32-gd0b85fb-1ubuntu0.1 [345 kB]
+Get:2 http://apt.pop-os.org/ubuntu jammy/universe amd64 libpapi6.0 amd64 6.0.0~dfsg-2 [344 kB]
+Get:3 http://apt.pop-os.org/ubuntu jammy/universe amd64 libpapi-dev amd64 6.0.0~dfsg-2 [237 kB]                                                                                                                                               
+Fetched 927 kB in 14s (68.5 kB/s)                                                                                                                                                                                                             
+Selecting previously unselected package libpfm4:amd64.
+(Reading database ... 428039 files and directories currently installed.)
+Preparing to unpack .../libpfm4_4.11.1+git32-gd0b85fb-1ubuntu0.1_amd64.deb ...
+Unpacking libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Selecting previously unselected package libpapi6.0:amd64.
+Preparing to unpack .../libpapi6.0_6.0.0~dfsg-2_amd64.deb ...
+Unpacking libpapi6.0:amd64 (6.0.0~dfsg-2) ...
+Selecting previously unselected package libpapi-dev:amd64.
+Preparing to unpack .../libpapi-dev_6.0.0~dfsg-2_amd64.deb ...
+Unpacking libpapi-dev:amd64 (6.0.0~dfsg-2) ...
+Setting up libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Setting up libpapi6.0:amd64 (6.0.0~dfsg-2) ...
+Setting up libpapi-dev:amd64 (6.0.0~dfsg-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.11) ...
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make run_all TYPE=masstree
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++ -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from workload.cpp:4:
+./papi_util.cpp: In function ‘void StartInstMonitor()’:
+./papi_util.cpp:45:17: error: ‘PAPI_start_counters’ was not declared in this scope
+   45 |   if ((retval = PAPI_start_counters(events, PAPI_INST_EVENT_COUNT)) != PAPI_OK) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+./papi_util.cpp: In function ‘void EndInstMonitor()’:
+./papi_util.cpp:57:17: error: ‘PAPI_stop_counters’ was not declared in this scope
+   57 |   if ((retval = PAPI_stop_counters(counters, PAPI_INST_EVENT_COUNT)) != PAPI_OK) {
+      |                 ^~~~~~~~~~~~~~~~~~
+./papi_util.cpp: In function ‘void StartCacheMonitor()’:
+./papi_util.cpp:81:17: error: ‘PAPI_start_counters’ was not declared in this scope
+   81 |   if ((retval = PAPI_start_counters(events, PAPI_CACHE_EVENT_COUNT)) != PAPI_OK) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+./papi_util.cpp: In function ‘void EndCacheMonitor()’:
+./papi_util.cpp:97:17: error: ‘PAPI_stop_counters’ was not declared in this scope
+   97 |   if ((retval = PAPI_stop_counters(counters, PAPI_CACHE_EVENT_COUNT)) != PAPI_OK) {
+      |                 ^~~~~~~~~~~~~~~~~~
+In file included from util.h:4,
+                 from workload.cpp:60:
+index.h: In member function ‘virtual uint64_t Index<KeyType, KeyComparator>::find_bwtree_fast(KeyType, std::vector<long unsigned int, std::allocator<long unsigned int> >*)’:
+index.h:37:77: warning: no return statement in function returning non-void [-Wreturn-type]
+   37 |   virtual uint64_t find_bwtree_fast(KeyType key, std::vector<uint64_t> *v) {};
+      |                                                                             ^
+index.h: In member function ‘virtual bool Index<KeyType, KeyComparator>::insert_bwtree_fast(KeyType, uint64_t)’:
+index.h:40:65: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 |   virtual bool insert_bwtree_fast(KeyType key, uint64_t value) {};
+      |                                                                 ^
+index.h: In member function ‘bool ArtOLCIndex<KeyType, KeyComparator>::upsert(KeyType, uint64_t, threadinfo*)’:
+index.h:258:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  258 |   }
+      |   ^
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h: In instantiation of ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::PerformGC(int) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’:
+BwTree/bwtree.h:3448:7:   required from ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::ClearThreadLocalGarbage() [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’
+BwTree/bwtree.h:3471:5:   required from ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::UpdateThreadLocal(size_t) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>; size_t = long unsigned int]’
+index.h:488:31:   required from ‘void BwTreeIndex<KeyType, KeyComparator, KeyEqualityChecker, KeyHashFunc>::UpdateThreadLocal(size_t) [with KeyType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; size_t = long unsigned int]’
+index.h:487:8:   required from here
+BwTree/bwtree.h:10842:5: error: ‘class wangziqi2013::bwtree::BwTreeBase::GarbageNode’ is private within this context
+10842 |     GarbageNode *header_p = &GetGCMetaData(thread_id)->header;
+      |     ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:369:9: note: declared private here
+  369 |   class GarbageNode {
+      |         ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10843:5: error: ‘class wangziqi2013::bwtree::BwTreeBase::GarbageNode’ is private within this context
+10843 |     GarbageNode *first_p = header_p->next_p;
+      |     ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:369:9: note: declared private here
+  369 |   class GarbageNode {
+      |         ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h: In instantiation of ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::AddGarbageNode(const wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::BaseNode*) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’:
+BwTree/bwtree.h:9511:15:   required from ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::EpochManager::AddGarbageNode(const wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::BaseNode*) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’
+BwTree/bwtree.h:7348:41:   required from ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::FinishPartialSMO(wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::Context*) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’
+BwTree/bwtree.h:6556:5:   required from ‘void wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::LoadNodeID(NodeID, wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::Context*) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>; NodeID = long unsigned int]’
+BwTree/bwtree.h:4112:5:   required from ‘const KeyValuePair* wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::Traverse(wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::Context*, const ValueType*, std::pair<int, bool>*) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>; wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::KeyValuePair = std::pair<long unsigned int, long unsigned int>]’
+BwTree/bwtree.h:8535:36:   required from ‘bool wangziqi2013::bwtree::BwTree<KeyType, ValueType, KeyComparator, KeyEqualityChecker, KeyHashFunc, ValueEqualityChecker, ValueHashFunc>::Insert(const KeyType&, const ValueType&) [with KeyType = long unsigned int; ValueType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; ValueEqualityChecker = std::equal_to<long unsigned int>; ValueHashFunc = std::hash<long unsigned int>]’
+index.h:500:27:   required from ‘bool BwTreeIndex<KeyType, KeyComparator, KeyEqualityChecker, KeyHashFunc>::insert(KeyType, uint64_t, threadinfo*) [with KeyType = long unsigned int; KeyComparator = std::less<long unsigned int>; KeyEqualityChecker = std::equal_to<long unsigned int>; KeyHashFunc = std::hash<long unsigned int>; uint64_t = long unsigned int]’
+index.h:499:8:   required from here
+BwTree/bwtree.h:10798:5: error: ‘class wangziqi2013::bwtree::BwTreeBase::GarbageNode’ is private within this context
+10798 |     GarbageNode *garbage_node_p = \
+      |     ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:369:9: note: declared private here
+  369 |   class GarbageNode {
+      |         ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10799:11: error: ‘class wangziqi2013::bwtree::BwTreeBase::GarbageNode’ is private within this context
+10799 |       new GarbageNode{GetGlobalEpoch(), (void *)(node_p)};
+      |           ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:369:9: note: declared private here
+  369 |   class GarbageNode {
+      |         ^~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10814:45: error: ‘constexpr const size_t wangziqi2013::bwtree::BwTreeBase::GC_NODE_COUNT_THREADHOLD’ is private within this context
+10814 |     if(GetCurrentGCMetaData()->node_count > GC_NODE_COUNT_THREADHOLD) {
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:360:27: note: declared private here
+  360 |   static constexpr size_t GC_NODE_COUNT_THREADHOLD = 1024;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10814:45: error: ‘constexpr const size_t wangziqi2013::bwtree::BwTreeBase::GC_NODE_COUNT_THREADHOLD’ is private within this context
+10814 |     if(GetCurrentGCMetaData()->node_count > GC_NODE_COUNT_THREADHOLD) {
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:360:27: note: declared private here
+  360 |   static constexpr size_t GC_NODE_COUNT_THREADHOLD = 1024;
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10816:17: error: ‘int wangziqi2013::bwtree::BwTreeBase::gc_id’ is private within this context
+10816 |       PerformGC(gc_id);
+      |                 ^~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:513:27: note: declared private here
+  513 |   static thread_local int gc_id;
+      |                           ^~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:10816:17: error: ‘int wangziqi2013::bwtree::BwTreeBase::gc_id’ is private within this context
+10816 |       PerformGC(gc_id);
+      |                 ^~~~~
+In file included from index.h:12,
+                 from util.h:4,
+                 from workload.cpp:60:
+BwTree/bwtree.h:513:27: note: declared private here
+  513 |   static thread_local int gc_id;
+      |                           ^~~~~
+make: *** [Makefile:41: workload.o] Error 1
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ touch Dockerfile
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ open Dockerfile 
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ docker build -t index-microbench-env .
+ERROR: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ sudo docker build -t index-microbench-env .
+[+] Building 438.4s (9/9) FINISHED                                                                                                                                                                                              docker:default
+ => [internal] load build definition from Dockerfile                                                                                                                                                                                      0.0s
+ => => transferring dockerfile: 829B                                                                                                                                                                                                      0.0s
+ => [internal] load metadata for docker.io/library/ubuntu:18.04                                                                                                                                                                           5.6s
+ => [internal] load .dockerignore                                                                                                                                                                                                         0.0s
+ => => transferring context: 2B                                                                                                                                                                                                           0.0s
+ => [1/5] FROM docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98                                                                                                                    10.6s
+ => => resolve docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98                                                                                                                     0.0s
+ => => sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98 1.33kB / 1.33kB                                                                                                                                            0.0s
+ => => sha256:dca176c9663a7ba4c1f0e710986f5a25e672842963d95b960191e2d9f7185ebe 424B / 424B                                                                                                                                                0.0s
+ => => sha256:f9a80a55f492e823bf5d51f1bd5f87ea3eed1cb31788686aa99a2fb61a27af6a 2.30kB / 2.30kB                                                                                                                                            0.0s
+ => => sha256:7c457f213c7634afb95a0fb2410a74b7b5bc0ba527033362c240c7a11bef4331 25.69MB / 25.69MB                                                                                                                                         10.0s
+ => => extracting sha256:7c457f213c7634afb95a0fb2410a74b7b5bc0ba527033362c240c7a11bef4331                                                                                                                                                 0.5s
+ => [2/5] RUN apt-get update && apt-get install -y     build-essential     gcc-5 g++-5     make cmake     git wget curl     libnuma-dev     linux-tools-common     linux-tools-generic     && rm -rf /var/lib/apt/lists/*               185.9s
+ => [3/5] WORKDIR /opt                                                                                                                                                                                                                    0.1s 
+ => [4/5] RUN wget http://icl.utk.edu/projects/papi/downloads/papi-5.4.3.tar.gz &&     tar -xzf papi-5.4.3.tar.gz &&     cd papi-5.4.3/src &&     ./configure &&     make -j$(nproc) &&     make install                                232.6s 
+ => [5/5] WORKDIR /workspace                                                                                                                                                                                                              0.0s 
+ => exporting to image                                                                                                                                                                                                                    3.5s 
+ => => exporting layers                                                                                                                                                                                                                   3.5s 
+ => => writing image sha256:18bd492091ecc568dbc0c1b786f44d938b53322ef3f4829bc802535dfed6659a                                                                                                                                              0.0s 
+ => => naming to docker.io/library/index-microbench-env                                                                                                                                                                                   0.0s 
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ docker run -it \                                                                                                                                                              
+  --privileged \
+  -v $(pwd)/index-microbench:/workspace \
+  index-microbench-env \
+  bash
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied
+
+Run 'docker run --help' for more information
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ cd ..
+(base) shreyasbg@anton ~/Desktop/dbms$ docker run -it   --privileged   -v $(pwd)/index-microbench:/workspace   index-microbench-env   bash
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied
+
+Run 'docker run --help' for more information
+(base) shreyasbg@anton ~/Desktop/dbms$ sudo docker run -it   --privileged   -v $(pwd)/index-microbench:/workspace   index-microbench-env   bash
+root@e72e2891da0b:/workspace# cd workload
+bash: cd: workload: No such file or directory
+root@e72e2891da0b:/workspace# ls
+ARTOLC    Dockerfile  YCSB                gen_workload.py            indexkey.h    nohotspot-skiplist  read_email_key.py    run_all.sh  workload.cpp         workload_spec
+BTreeOLC  Makefile    allocatortracker.h  generate_all_workloads.sh  masstree      papi_util.cpp       rotate-skiplist      runs.txt    workload.o           workload_string.cpp
+BwTree    README.md   btree-rtm           index.h                    microbench.h  pcm                 rotate-skiplist-cpp  util.h      workload_config.inp  workloads
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++ -std=gnu++0x -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:10: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+ #include "tbb/enumerable_thread_specific.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# ^C
+root@e72e2891da0b:/workspace# ^C
+root@e72e2891da0b:/workspace# ^C
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# agrv .
+bash: agrv: command not found
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# antigravity .
+bash: antigravity: command not found
+root@e72e2891da0b:/workspace# code .
+bash: code: command not found
+root@e72e2891da0b:/workspace# open .
+bash: open: command not found
+root@e72e2891da0b:/workspace# more Makefile 
+CC = gcc-5 
+CXX = g++-5 -std=gnu++0x
+DEPSDIR := masstree/.deps
+DEPCFLAGS = -MD -MF $(DEPSDIR)/$*.d -MP
+MEMMGR = -lpapi -ltcmalloc_minimal
+CFLAGS = -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG $(DEPCFLAGS) -include masstree/config.h
+
+# By default just use 1 thread. Override this option to allow running the
+# benchmark with 20 threads. i.e. THREAD_NUM=20 make run_all_atrloc
+THREAD_NUM?=1
+TYPE?=bwtree
+
+# Can also change it to rotate skiplist
+SL_DIR=./nohotspot-skiplist
+
+# skiplist source files
+SL_OBJS=$(patsubst %.cpp,%.o,$(wildcard $(SL_DIR)/*.cpp))
+$(info skip list object files: $(SL_OBJS))
+
+SNAPPY = /usr/lib/libsnappy.so.1.3.0
+
+all: workload
+
+ifdef STRING_KEY
+$(info Using string key as key type)
+CFLAGS += -DUSE_GENERIC_KEY
+endif
+
+run_all: workload workload_string
+	./workload a rand $(TYPE) $(THREAD_NUM) 
+	./workload c rand $(TYPE) $(THREAD_NUM)
+	./workload e rand $(TYPE) $(THREAD_NUM)
+	./workload a mono $(TYPE) $(THREAD_NUM) 
+	./workload c mono $(TYPE) $(THREAD_NUM)
+	./workload e mono $(TYPE) $(THREAD_NUM)
+	./workload_string a email $(TYPE) $(THREAD_NUM)
+	./workload_string c email $(TYPE) $(THREAD_NUM)
+	./workload_string e email $(TYPE) $(THREAD_NUM)
+
+workload.o: workload.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h BTreeOLC/BTreeOLC_child_layout.h ./pcm/pcm-memory.cpp ./pcm/pcm-numa.cpp ./papi_util.cpp
+	$(CXX) $(CFLAGS) -c -o workload.o workload.cpp
+
+workload: skiplist-clean workload.o bwtree.o artolc.o btree.o ./masstree/mtIndexAPI.a ./pcm/libPCM.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload workload.o bwtree.o artolc.o btree.o $(SL_OBJS) masstree/mtIndexAPI.a ./pcm/libPCM.a $(MEMMGR) -lpthread -lm -ltbb
+
+workload_string.o: workload_string.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h skiplist-clean
+	$(CXX) $(CFLAGS) -c -o workload_string.o workload_string.cpp
+
+workload_string: skiplist-clean workload_string.o bwtree.o artolc.o ./masstree/mtIndexAPI.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload_string workload_string.o bwtree.o artolc.o  $(SL_OBJS) masstree/mtIndexAPI.a $(MEMMGR) -lpthread -lm -ltbb
+
+bwtree.o: ./BwTree/bwtree.h ./BwTree/bwtree.cpp
+	$(CXX) $(CFLAGS) -c -o bwtree.o ./BwTree/bwtree.cpp
+
+artolc.o: ./ARTOLC/*.cpp ./ARTOLC/*.h
+	$(CXX) $(CFLAGS) ./ARTOLC/Tree.cpp -c -o artolc.o $(MEMMGR) -lpthread -lm -ltbb
+
+btree.o: ./btree-rtm/*.c ./btree-rtm/*.h
+root@e72e2891da0b:/workspace# more Makefile 
+# HELLOO
+CC = gcc-5 
+CXX = g++-5 -std=gnu++0x
+DEPSDIR := masstree/.deps
+DEPCFLAGS = -MD -MF $(DEPSDIR)/$*.d -MP
+MEMMGR = -lpapi -ltcmalloc_minimal
+CFLAGS = -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG $(DEPCFLAGS) -include masstree/config.h
+
+# By default just use 1 thread. Override this option to allow running the
+# benchmark with 20 threads. i.e. THREAD_NUM=20 make run_all_atrloc
+THREAD_NUM?=1
+TYPE?=bwtree
+
+# Can also change it to rotate skiplist
+SL_DIR=./nohotspot-skiplist
+
+# skiplist source files
+SL_OBJS=$(patsubst %.cpp,%.o,$(wildcard $(SL_DIR)/*.cpp))
+$(info skip list object files: $(SL_OBJS))
+
+SNAPPY = /usr/lib/libsnappy.so.1.3.0
+
+all: workload
+
+ifdef STRING_KEY
+$(info Using string key as key type)
+CFLAGS += -DUSE_GENERIC_KEY
+endif
+
+run_all: workload workload_string
+	./workload a rand $(TYPE) $(THREAD_NUM) 
+	./workload c rand $(TYPE) $(THREAD_NUM)
+	./workload e rand $(TYPE) $(THREAD_NUM)
+	./workload a mono $(TYPE) $(THREAD_NUM) 
+	./workload c mono $(TYPE) $(THREAD_NUM)
+	./workload e mono $(TYPE) $(THREAD_NUM)
+	./workload_string a email $(TYPE) $(THREAD_NUM)
+	./workload_string c email $(TYPE) $(THREAD_NUM)
+	./workload_string e email $(TYPE) $(THREAD_NUM)
+
+workload.o: workload.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h BTreeOLC/BTreeOLC_child_layout.h ./pcm/pcm-memory.cpp ./pcm/pcm-numa.cpp ./papi_util.cpp
+	$(CXX) $(CFLAGS) -c -o workload.o workload.cpp
+
+workload: skiplist-clean workload.o bwtree.o artolc.o btree.o ./masstree/mtIndexAPI.a ./pcm/libPCM.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload workload.o bwtree.o artolc.o btree.o $(SL_OBJS) masstree/mtIndexAPI.a ./pcm/libPCM.a $(MEMMGR) -lpthread -lm -ltbb
+
+workload_string.o: workload_string.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h skiplist-clean
+	$(CXX) $(CFLAGS) -c -o workload_string.o workload_string.cpp
+
+workload_string: skiplist-clean workload_string.o bwtree.o artolc.o ./masstree/mtIndexAPI.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload_string workload_string.o bwtree.o artolc.o  $(SL_OBJS) masstree/mtIndexAPI.a $(MEMMGR) -lpthread -lm -ltbb
+
+bwtree.o: ./BwTree/bwtree.h ./BwTree/bwtree.cpp
+	$(CXX) $(CFLAGS) -c -o bwtree.o ./BwTree/bwtree.cpp
+
+artolc.o: ./ARTOLC/*.cpp ./ARTOLC/*.h
+	$(CXX) $(CFLAGS) ./ARTOLC/Tree.cpp -c -o artolc.o $(MEMMGR) -lpthread -lm -ltbb
+
+root@e72e2891da0b:/workspace# more Makefile 
+CC = gcc-5 
+CXX = g++-5 -std=gnu++0x
+DEPSDIR := masstree/.deps
+DEPCFLAGS = -MD -MF $(DEPSDIR)/$*.d -MP
+MEMMGR = -lpapi -ltcmalloc_minimal
+CFLAGS = -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG $(DEPCFLAGS) -include masstree/config.h
+
+# By default just use 1 thread. Override this option to allow running the
+# benchmark with 20 threads. i.e. THREAD_NUM=20 make run_all_atrloc
+THREAD_NUM?=1
+TYPE?=bwtree
+
+# Can also change it to rotate skiplist
+SL_DIR=./nohotspot-skiplist
+
+# skiplist source files
+SL_OBJS=$(patsubst %.cpp,%.o,$(wildcard $(SL_DIR)/*.cpp))
+$(info skip list object files: $(SL_OBJS))
+
+SNAPPY = /usr/lib/libsnappy.so.1.3.0
+
+all: workload
+
+ifdef STRING_KEY
+$(info Using string key as key type)
+CFLAGS += -DUSE_GENERIC_KEY
+endif
+
+run_all: workload workload_string
+	./workload a rand $(TYPE) $(THREAD_NUM) 
+	./workload c rand $(TYPE) $(THREAD_NUM)
+	./workload e rand $(TYPE) $(THREAD_NUM)
+	./workload a mono $(TYPE) $(THREAD_NUM) 
+	./workload c mono $(TYPE) $(THREAD_NUM)
+	./workload e mono $(TYPE) $(THREAD_NUM)
+	./workload_string a email $(TYPE) $(THREAD_NUM)
+	./workload_string c email $(TYPE) $(THREAD_NUM)
+	./workload_string e email $(TYPE) $(THREAD_NUM)
+
+workload.o: workload.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h BTreeOLC/BTreeOLC_child_layout.h ./pcm/pcm-memory.cpp ./pcm/pcm-numa.cpp ./papi_util.cpp
+	$(CXX) $(CFLAGS) -c -o workload.o workload.cpp
+
+workload: skiplist-clean workload.o bwtree.o artolc.o btree.o ./masstree/mtIndexAPI.a ./pcm/libPCM.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload workload.o bwtree.o artolc.o btree.o $(SL_OBJS) masstree/mtIndexAPI.a ./pcm/libPCM.a $(MEMMGR) -lpthread -lm -ltbb
+
+workload_string.o: workload_string.cpp microbench.h index.h util.h ./masstree/mtIndexAPI.hh ./BwTree/bwtree.h BTreeOLC/BTreeOLC.h skiplist-clean
+	$(CXX) $(CFLAGS) -c -o workload_string.o workload_string.cpp
+
+workload_string: skiplist-clean workload_string.o bwtree.o artolc.o ./masstree/mtIndexAPI.a $(SL_OBJS)
+	$(CXX) $(CFLAGS) -o workload_string workload_string.o bwtree.o artolc.o  $(SL_OBJS) masstree/mtIndexAPI.a $(MEMMGR) -lpthread -lm -ltbb
+
+bwtree.o: ./BwTree/bwtree.h ./BwTree/bwtree.cpp
+	$(CXX) $(CFLAGS) -c -o bwtree.o ./BwTree/bwtree.cpp
+
+artolc.o: ./ARTOLC/*.cpp ./ARTOLC/*.h
+	$(CXX) $(CFLAGS) ./ARTOLC/Tree.cpp -c -o artolc.o $(MEMMGR) -lpthread -lm -ltbb
+
+btree.o: ./btree-rtm/*.c ./btree-rtm/*.h
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# mkdir tbb
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX=g++-5
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from /usr/include/c++/5/atomic:38:0,
+                 from workload.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# make clean
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f workload workload_string *.o *~ *.d
+rm -f ./nohotspot-skiplist/*.o
+root@e72e2891da0b:/workspace# make clean
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f workload workload_string *.o *~ *.d
+rm -f ./nohotspot-skiplist/*.o
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+In file included from ARTOLC/N.h:13:0,
+                 from ARTOLC/Tree.h:7,
+                 from index.h:6,
+                 from util.h:4,
+                 from workload.cpp:60:
+ARTOLC/Epoche.h:6:44: fatal error: tbb/enumerable_thread_specific.h: No such file or directory
+compilation terminated.
+Makefile:41: recipe for target 'workload.o' failed
+make: *** [workload.o] Error 1
+root@e72e2891da0b:/workspace# apt update
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [102 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic InRelease [242 kB]                   
+Get:3 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [1688 kB]
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [102 kB]         
+Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [102 kB]        
+Get:6 http://archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [11.3 MB]
+Get:7 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1637 kB]
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [23.8 kB]                                                                                                                                                   
+Get:9 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [3373 kB]                                                                                                                                                         
+Get:10 http://archive.ubuntu.com/ubuntu bionic/main amd64 Packages [1344 kB]                                                                                                                                                                  
+Get:11 http://archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [186 kB]                                                                                                                                                             
+Get:12 http://archive.ubuntu.com/ubuntu bionic/restricted amd64 Packages [13.5 kB]                                                                                                                                                            
+Get:13 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [1728 kB]                                                                                                                                                    
+Get:14 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [3786 kB]                                                                                                                                                          
+Get:15 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [30.8 kB]                                                                                                                                                    
+Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [2411 kB]                                                                                                                                                      
+Get:17 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [20.6 kB]                                                                                                                                                    
+Get:18 http://archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [64.0 kB]                                                                                                                                                        
+Fetched 28.2 MB in 16s (1817 kB/s)                                                                                                                                                                                                            
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+root@e72e2891da0b:/workspace# apt install -y libtbb-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libtbb2
+Suggested packages:
+  tbb-examples libtbb-doc
+The following NEW packages will be installed:
+  libtbb-dev libtbb2
+0 upgraded, 2 newly installed, 0 to remove and 1 not upgraded.
+Need to get 342 kB of archives.
+After this operation, 2033 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libtbb2 amd64 2017~U7-8 [110 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libtbb-dev amd64 2017~U7-8 [231 kB]
+Fetched 342 kB in 3s (112 kB/s)     
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libtbb2:amd64.
+(Reading database ... 18265 files and directories currently installed.)
+Preparing to unpack .../libtbb2_2017~U7-8_amd64.deb ...
+Unpacking libtbb2:amd64 (2017~U7-8) ...
+Selecting previously unselected package libtbb-dev:amd64.
+Preparing to unpack .../libtbb-dev_2017~U7-8_amd64.deb ...
+Unpacking libtbb-dev:amd64 (2017~U7-8) ...
+Setting up libtbb2:amd64 (2017~U7-8) ...
+Setting up libtbb-dev:amd64 (2017~U7-8) ...
+Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+root@e72e2891da0b:/workspace# ls /usr/include/tbb/enumerable_thread_specific.h
+/usr/include/tbb/enumerable_thread_specific.h
+root@e72e2891da0b:/workspace# make clean
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f workload workload_string *.o *~ *.d
+rm -f ./nohotspot-skiplist/*.o
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/bwtree.d -MP -include masstree/config.h -c -o bwtree.o ./BwTree/bwtree.cpp
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/artolc.d -MP -include masstree/config.h ./ARTOLC/Tree.cpp -c -o artolc.o -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/btree.d -MP -include masstree/config.h ./btree-rtm/btree.c -c -o btree.o -lpapi -ltcmalloc_minimal -lpthread -lm
+make: *** No rule to make target 'masstree/mtIndexAPI.a', needed by 'workload'.  Stop.
+root@e72e2891da0b:/workspace# ls
+ARTOLC    Dockerfile  YCSB                btree-rtm  gen_workload.py            indexkey.h    nohotspot-skiplist  read_email_key.py    run_all.sh  util.h        workload_config.inp  workloads
+BTreeOLC  Makefile    allocatortracker.h  btree.o    generate_all_workloads.sh  masstree      papi_util.cpp       rotate-skiplist      runs.txt    workload.cpp  workload_spec
+BwTree    README.md   artolc.o            bwtree.o   index.h                    microbench.h  pcm                 rotate-skiplist-cpp  tbb         workload.o    workload_string.cpp
+root@e72e2891da0b:/workspace# cd masstree/
+root@e72e2891da0b:/workspace/masstree# ls
+AUTHORS            checkpoint.hh    config.h.in   json.cc       kvproto.hh   kvthread.hh         masstree_key.hh      misc.cc         mtclient.cc     perfstat.hh        straccum.hh      test_atomics.cc  value_bag.hh
+GNUmakefile        circular_int.hh  configure     json.hh       kvrandom.cc  local_vector.hh     masstree_print.hh    misc.hh         mtclient.hh     query_masstree.cc  string.cc        test_string.cc   value_string.cc
+GNUmakefile.in     clp.c            configure.ac  jsontest.cc   kvrandom.hh  log.cc              masstree_remove.hh   msgpack.cc      mtcounters.hh   query_masstree.hh  string.hh        testrunner.cc    value_string.hh
+LICENSE            clp.h            doc           kpermuter.hh  kvrow.hh     log.hh              masstree_scan.hh     msgpack.hh      mtd.cc          stamp-h            string_base.hh   testrunner.hh    value_versioned_array.cc
+README.md          compiler.cc      file.cc       ksearch.hh    kvstats.hh   masstree.hh         masstree_split.hh    msgpacktest.cc  mttest.cc       str.cc             string_slice.cc  timestamp.hh     value_versioned_array.hh
+btree_leaflink.hh  compiler.hh      file.hh       kvio.cc       kvtest.hh    masstree_get.hh     masstree_struct.hh   mtIndexAPI.cc   nodeversion.hh  str.hh             string_slice.hh  value_array.cc
+checkpoint.cc      config.h         hashcode.hh   kvio.hh       kvthread.cc  masstree_insert.hh  masstree_tcursor.hh  mtIndexAPI.hh   perfstat.cc     straccum.cc        stringbag.hh     value_array.hh
+root@e72e2891da0b:/workspace/masstree# make 
+autoreconf -i
+make: autoreconf: Command not found
+GNUmakefile:62: recipe for target 'configure' failed
+make: *** [configure] Error 127
+root@e72e2891da0b:/workspace/masstree# make all
+autoreconf -i
+make: autoreconf: Command not found
+GNUmakefile:62: recipe for target 'configure' failed
+make: *** [configure] Error 127
+root@e72e2891da0b:/workspace/masstree# make
+autoreconf -i
+make: autoreconf: Command not found
+GNUmakefile:62: recipe for target 'configure' failed
+make: *** [configure] Error 127
+root@e72e2891da0b:/workspace/masstree# Make
+bash: Make: command not found
+root@e72e2891da0b:/workspace/masstree# make
+./configure  'enable_memdebug=no' 'enable_assert=no' 'enable_assertions=no' 'enable_preconditions=no' 'enable_invariants=no'
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++0x accepts -g... yes
+checking for g++ -std=gnu++0x option to enable C++11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking for sys/epoll.h... yes
+checking for numa.h... yes
+checking for library containing numa_available... -lnuma
+checking for __builtin_clz builtin... yes
+checking for __builtin_clzl builtin... yes
+checking for __builtin_clzll builtin... yes
+checking for __builtin_ctz builtin... yes
+checking for __builtin_ctzl builtin... yes
+checking for __builtin_ctzll builtin... yes
+checking for __sync_synchronize builtin... yes
+checking for __sync_fetch_and_add builtin... yes
+checking for __sync_add_and_fetch builtin... yes
+checking for __sync_fetch_and_add_8 builtin... yes
+checking for __sync_add_and_fetch_8 builtin... yes
+checking for __sync_fetch_and_or builtin... yes
+checking for __sync_or_and_fetch builtin... yes
+checking for __sync_fetch_and_or_8 builtin... yes
+checking for __sync_or_and_fetch_8 builtin... yes
+checking for __sync_bool_compare_and_swap builtin... yes
+checking for __sync_bool_compare_and_swap_8 builtin... yes
+checking for __sync_val_compare_and_swap builtin... yes
+checking for __sync_val_compare_and_swap_8 builtin... yes
+checking for __sync_lock_test_and_set builtin... yes
+checking for __sync_lock_test_and_set_val builtin... yes
+checking for __sync_lock_release_set builtin... yes
+checking whether the C++ compiler understands 'auto'... yes
+checking whether the C++ compiler understands constexpr... yes
+checking whether the C++ compiler understands static_assert... yes
+checking whether the C++ compiler understands rvalue references... yes
+checking whether the C++ compiler understands template alias... yes
+checking for type_traits... yes
+checking for std::hash... yes
+checking for __has_trivial_copy... yes
+checking for std::move... yes
+checking for std::is_trivially_copyable... yes
+checking for std::is_rvalue_reference... yes
+checking for malloc in -lflow... no
+checking for mallctl in -ljemalloc... no
+checking for tc_malloc in -ltcmalloc_minimal... no
+checking for _Z16getMainHoardHeapv in -lhoard... no
+checking for malloc library... malloc
+checking for malloc library... default
+checking whether off_t and long are the same type... yes
+checking whether off_t and long long are the same type... no
+checking whether int64_t and long are the same type... yes
+checking whether int64_t and long long are the same type... no
+checking whether size_t and unsigned are the same type... no
+checking whether size_t and unsigned long are the same type... yes
+checking whether size_t and unsigned long long are the same type... no
+checking for long long... yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of void *... 8
+checking for g++ -std=gnu++0x options needed to detect all undeclared functions... none needed
+checking whether getline is declared... yes
+checking for time.h... yes
+checking for execinfo.h... yes
+checking whether clock_gettime is declared... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking whether MADV_HUGEPAGE is supported... checking how to run the C++ preprocessor... g++ -std=gnu++0x -E
+yes
+checking whether MAP_HUGETLB is supported... yes
+configure: WARNING: Use --disable-assertions instead of --disable-assert.
+configure: creating ./config.status
+config.status: creating GNUmakefile
+config.status: creating config.h
+CONFIG_FILES=GNUmakefile CONFIG_HEADERS= /bin/sh ./config.status
+config.status: creating GNUmakefile
+CONFIG_FILES= /bin/sh ./config.status
+config.status: creating config.h
+config.status: config.h is unchanged
+echo > stamp-h
+mkdir -p .deps
+touch .deps/stamp
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/mtIndexAPI.d -MP -include config.h -c -o mtIndexAPI.o mtIndexAPI.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/misc.d -MP -include config.h -c -o misc.o misc.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/checkpoint.d -MP -include config.h -c -o checkpoint.o checkpoint.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/testrunner.d -MP -include config.h -c -o testrunner.o testrunner.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/kvio.d -MP -include config.h -c -o kvio.o kvio.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/json.d -MP -include config.h -c -o json.o json.cc
+In file included from string.hh:18:0,
+                 from straccum.hh:21,
+                 from json.hh:19,
+                 from json.cc:17:
+string_base.hh: In member function 'const char* lcdf::String_base<T>::encode_json_partial(E&) const [with E = lcdf::StringAccum; T = lcdf::String]':
+string_base.hh:511:41: warning: '__builtin___snprintf_chk' output truncated before the last format character [-Wformat-truncation=]
+ typename String_base<T>::const_iterator String_base<T>::encode_json_partial(E& enc) const {
+                                         ^~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/c++/7/ext/string_conversions.h:43,
+                 from /usr/include/c++/7/bits/basic_string.h:6361,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /usr/include/c++/7/tuple:39,
+                 from /usr/include/c++/7/functional:54,
+                 from hashcode.hh:21,
+                 from string_base.hh:19,
+                 from string.hh:18,
+                 from straccum.hh:21,
+                 from json.hh:19,
+                 from json.cc:17:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:65:44: note: '__builtin___snprintf_chk' output 6 bytes into a destination of size 5
+        __bos (__s), __fmt, __va_arg_pack ());
+                                            ^
+json.cc: In member function 'void lcdf::Json::hard_unparse(lcdf::StringAccum&, const lcdf::Json::unparse_manipulator&, int) const':
+json.cc:640:28: warning: 'upx' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 sa << upx[1];
+                            ^
+json.cc:646:9: warning: 'expanded' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if (expanded)
+         ^~
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/string.d -MP -include config.h -c -o string.o string.cc
+In file included from string.hh:18:0,
+                 from string.cc:35:
+string_base.hh: In member function 'const char* lcdf::String_base<T>::encode_json_partial(E&) const [with E = lcdf::StringAccum; T = lcdf::String]':
+string_base.hh:511:41: warning: '__builtin___snprintf_chk' output truncated before the last format character [-Wformat-truncation=]
+ typename String_base<T>::const_iterator String_base<T>::encode_json_partial(E& enc) const {
+                                         ^~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/c++/7/ext/string_conversions.h:43,
+                 from /usr/include/c++/7/bits/basic_string.h:6361,
+                 from /usr/include/c++/7/string:52,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /usr/include/c++/7/tuple:39,
+                 from /usr/include/c++/7/functional:54,
+                 from hashcode.hh:21,
+                 from string_base.hh:19,
+                 from string.hh:18,
+                 from string.cc:35:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:65:44: note: '__builtin___snprintf_chk' output 6 bytes into a destination of size 5
+        __bos (__s), __fmt, __va_arg_pack ());
+                                            ^
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/straccum.d -MP -include config.h -c -o straccum.o straccum.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/str.d -MP -include config.h -c -o str.o str.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/msgpack.d -MP -include config.h -c -o msgpack.o msgpack.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/clp.d -MP -include config.h -c -o clp.o clp.c
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/kvrandom.d -MP -include config.h -c -o kvrandom.o kvrandom.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/compiler.d -MP -include config.h -c -o compiler.o compiler.cc
+g++ -std=gnu++0x -g -W -Wall -O2 -fPIC -MD -MF .deps/kvthread.d -MP -include config.h -c -o kvthread.o kvthread.cc
+ar cru mtIndexAPI.a mtIndexAPI.o misc.o checkpoint.o testrunner.o kvio.o json.o string.o straccum.o str.o msgpack.o clp.o kvrandom.o compiler.o kvthread.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+root@e72e2891da0b:/workspace/masstree# cd ..
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+make: *** No rule to make target 'pcm/libPCM.a', needed by 'workload'.  Stop.
+root@e72e2891da0b:/workspace# cd pcm/
+root@e72e2891da0b:/workspace/pcm# make
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c msr.cpp -o msr.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 msr.cpp > msr.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c cpucounters.cpp -o cpucounters.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 cpucounters.cpp > cpucounters.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pci.cpp -o pci.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pci.cpp > pci.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c client_bw.cpp -o client_bw.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 client_bw.cpp > client_bw.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c utils.cpp -o utils.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 utils.cpp > utils.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-numa.cpp -o pcm-numa.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-numa.cpp > pcm-numa.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-power.cpp -o pcm-power.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-power.cpp > pcm-power.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm.cpp -o pcm.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm.cpp > pcm.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-sensor.cpp -o pcm-sensor.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-sensor.cpp > pcm-sensor.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-msr.cpp -o pcm-msr.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-msr.cpp > pcm-msr.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-memory.cpp -o pcm-memory.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-memory.cpp > pcm-memory.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-tsx.cpp -o pcm-tsx.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-tsx.cpp > pcm-tsx.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-pcie.cpp -o pcm-pcie.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-pcie.cpp > pcm-pcie.d
+g++-5 -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 -c pcm-core.cpp -o pcm-core.o
+g++-5 -MM -Wall -g -O3 -Wno-unknown-pragmas -DPCM_USE_PERF -std=c++11 pcm-core.cpp > pcm-core.d
+ar -rcs libPCM.a msr.o cpucounters.o pci.o client_bw.o utils.o pcm-numa.o pcm-power.o pcm.o pcm-sensor.o pcm-msr.o pcm-memory.o pcm-tsx.o pcm-pcie.o pcm-core.o
+root@e72e2891da0b:/workspace/pcm# cd ..
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/intset.d -MP -include masstree/config.h -c -o nohotspot-skiplist/intset.o nohotspot-skiplist/intset.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/background.d -MP -include masstree/config.h -c -o nohotspot-skiplist/background.o nohotspot-skiplist/background.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/garbagecoll.d -MP -include masstree/config.h -c -o nohotspot-skiplist/garbagecoll.o nohotspot-skiplist/garbagecoll.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/nohotspot_ops.d -MP -include masstree/config.h -c -o nohotspot-skiplist/nohotspot_ops.o nohotspot-skiplist/nohotspot_ops.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/skiplist.d -MP -include masstree/config.h -c -o nohotspot-skiplist/skiplist.o nohotspot-skiplist/skiplist.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/ptst.d -MP -include masstree/config.h -c -o nohotspot-skiplist/ptst.o nohotspot-skiplist/ptst.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/.d -MP -include masstree/config.h -o workload workload.o bwtree.o artolc.o btree.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o masstree/mtIndexAPI.a ./pcm/libPCM.a -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+/usr/bin/ld: cannot find -ltcmalloc_minimal
+collect2: error: ld returned 1 exit status
+Makefile:44: recipe for target 'workload' failed
+make: *** [workload] Error 1
+root@e72e2891da0b:/workspace# apt update
+Hit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease        
+Hit:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+root@e72e2891da0b:/workspace# apt install -y libgoogle-perftools-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libgoogle-perftools4 liblzma-dev libtcmalloc-minimal4 libunwind-dev
+Suggested packages:
+  liblzma-doc
+The following NEW packages will be installed:
+  libgoogle-perftools-dev libgoogle-perftools4 liblzma-dev libtcmalloc-minimal4 libunwind-dev
+0 upgraded, 5 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1053 kB of archives.
+After this operation, 8828 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 libtcmalloc-minimal4 amd64 2.5-2.2ubuntu3 [91.6 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libgoogle-perftools4 amd64 2.5-2.2ubuntu3 [190 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblzma-dev amd64 5.2.2-1.3ubuntu0.1 [145 kB]
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libunwind-dev amd64 1.2.1-8ubuntu0.1 [423 kB]
+Get:5 http://archive.ubuntu.com/ubuntu bionic/main amd64 libgoogle-perftools-dev amd64 2.5-2.2ubuntu3 [204 kB]
+Fetched 1053 kB in 3s (381 kB/s)                  
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libtcmalloc-minimal4.
+(Reading database ... 18390 files and directories currently installed.)
+Preparing to unpack .../libtcmalloc-minimal4_2.5-2.2ubuntu3_amd64.deb ...
+Unpacking libtcmalloc-minimal4 (2.5-2.2ubuntu3) ...
+Selecting previously unselected package libgoogle-perftools4.
+Preparing to unpack .../libgoogle-perftools4_2.5-2.2ubuntu3_amd64.deb ...
+Unpacking libgoogle-perftools4 (2.5-2.2ubuntu3) ...
+Selecting previously unselected package liblzma-dev:amd64.
+Preparing to unpack .../liblzma-dev_5.2.2-1.3ubuntu0.1_amd64.deb ...
+Unpacking liblzma-dev:amd64 (5.2.2-1.3ubuntu0.1) ...
+Selecting previously unselected package libunwind-dev:amd64.
+Preparing to unpack .../libunwind-dev_1.2.1-8ubuntu0.1_amd64.deb ...
+Unpacking libunwind-dev:amd64 (1.2.1-8ubuntu0.1) ...
+Selecting previously unselected package libgoogle-perftools-dev.
+Preparing to unpack .../libgoogle-perftools-dev_2.5-2.2ubuntu3_amd64.deb ...
+Unpacking libgoogle-perftools-dev (2.5-2.2ubuntu3) ...
+Setting up libtcmalloc-minimal4 (2.5-2.2ubuntu3) ...
+Setting up libgoogle-perftools4 (2.5-2.2ubuntu3) ...
+Setting up liblzma-dev:amd64 (5.2.2-1.3ubuntu0.1) ...
+Setting up libunwind-dev:amd64 (1.2.1-8ubuntu0.1) ...
+Setting up libgoogle-perftools-dev (2.5-2.2ubuntu3) ...
+Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/intset.d -MP -include masstree/config.h -c -o nohotspot-skiplist/intset.o nohotspot-skiplist/intset.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/background.d -MP -include masstree/config.h -c -o nohotspot-skiplist/background.o nohotspot-skiplist/background.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/garbagecoll.d -MP -include masstree/config.h -c -o nohotspot-skiplist/garbagecoll.o nohotspot-skiplist/garbagecoll.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/nohotspot_ops.d -MP -include masstree/config.h -c -o nohotspot-skiplist/nohotspot_ops.o nohotspot-skiplist/nohotspot_ops.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/skiplist.d -MP -include masstree/config.h -c -o nohotspot-skiplist/skiplist.o nohotspot-skiplist/skiplist.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/ptst.d -MP -include masstree/config.h -c -o nohotspot-skiplist/ptst.o nohotspot-skiplist/ptst.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/.d -MP -include masstree/config.h -o workload workload.o bwtree.o artolc.o btree.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o masstree/mtIndexAPI.a ./pcm/libPCM.a -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload_string.d -MP -include masstree/config.h -c -o workload_string.o workload_string.cpp
+In file included from workload_string.cpp:2:0:
+index.h: In instantiation of 'bool BTreeRTMIndex<KeyType, KeyComparator>::insert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:87:14: error: invalid cast from type 'GenericKey<31ul>' to type 'uint64_t {aka long unsigned int}'
+     bt_insert(tree, (uint64_t)key, value);
+              ^
+index.h: In instantiation of 'uint64_t BTreeRTMIndex<KeyType, KeyComparator>::find(KeyType, std::vector<long unsigned int, std::allocator<long unsigned int> >*, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:94:21: error: cannot convert 'GenericKey<31ul>' to 'uint64_t {aka long unsigned int}' for argument '2' to 'uint64_t bt_find(btree_t*, uint64_t, int*)'
+     result = bt_find(tree, key, &success);
+                     ^
+index.h: In instantiation of 'bool BTreeRTMIndex<KeyType, KeyComparator>::upsert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:101:14: error: invalid cast from type 'GenericKey<31ul>' to type 'uint64_t {aka long unsigned int}'
+     bt_upsert(tree, (uint64_t)key, value);
+              ^
+In file included from index.h:20:0,
+                 from workload_string.cpp:2:
+index.h: In instantiation of 'bool SkipListIndex<KeyType, KeyComparator>::insert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:26:50: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_insert(steps, a, b, c) sl_do_operation((steps), (a), INSERT, (b), (c));
+                                                  ^
+index.h:160:5: note: in expansion of macro 'sl_insert'
+     sl_insert(&skiplist_steps, set, key, &value);
+     ^
+index.h: In instantiation of 'uint64_t SkipListIndex<KeyType, KeyComparator>::find(KeyType, std::vector<long unsigned int, std::allocator<long unsigned int> >*, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:24:49: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_contains(steps, a, b) sl_do_operation((steps), (a), CONTAINS, (b), NULL);
+                                                 ^
+index.h:170:5: note: in expansion of macro 'sl_contains'
+     sl_contains(&skiplist_steps, set, key);
+     ^
+index.h: In instantiation of 'bool SkipListIndex<KeyType, KeyComparator>::upsert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:25:47: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_delete(steps, a, b) sl_do_operation((steps), (a), DELETE, (b), NULL);
+                                               ^
+index.h:180:5: note: in expansion of macro 'sl_delete'
+     sl_delete(&skiplist_steps, set, key);
+     ^
+./nohotspot-skiplist/nohotspot_ops.h:26:50: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_insert(steps, a, b, c) sl_do_operation((steps), (a), INSERT, (b), (c));
+                                                  ^
+index.h:181:5: note: in expansion of macro 'sl_insert'
+     sl_insert(&skiplist_steps, set, key, &value);
+     ^
+index.h: In instantiation of 'uint64_t SkipListIndex<KeyType, KeyComparator>::scan(KeyType, int, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:28:60: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_scan(steps, a, start_key, range) sl_do_operation((steps), (a), SCAN, (start_key), (void *)&(range))
+                                                            ^
+index.h:187:5: note: in expansion of macro 'sl_scan'
+     sl_scan(&skiplist_steps, set, key, range);
+     ^
+Makefile:47: recipe for target 'workload_string.o' failed
+make: *** [workload_string.o] Error 1
+root@e72e2891da0b:/workspace# make clean
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f workload workload_string *.o *~ *.d
+rm -f ./nohotspot-skiplist/*.o
+root@e72e2891da0b:/workspace# make clean
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f workload workload_string *.o *~ *.d
+rm -f ./nohotspot-skiplist/*.o
+root@e72e2891da0b:/workspace# make workload TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload.d -MP -include masstree/config.h -c -o workload.o workload.cpp
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/bwtree.d -MP -include masstree/config.h -c -o bwtree.o ./BwTree/bwtree.cpp
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/artolc.d -MP -include masstree/config.h ./ARTOLC/Tree.cpp -c -o artolc.o -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/btree.d -MP -include masstree/config.h ./btree-rtm/btree.c -c -o btree.o -lpapi -ltcmalloc_minimal -lpthread -lm
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/intset.d -MP -include masstree/config.h -c -o nohotspot-skiplist/intset.o nohotspot-skiplist/intset.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/background.d -MP -include masstree/config.h -c -o nohotspot-skiplist/background.o nohotspot-skiplist/background.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/garbagecoll.d -MP -include masstree/config.h -c -o nohotspot-skiplist/garbagecoll.o nohotspot-skiplist/garbagecoll.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/nohotspot_ops.d -MP -include masstree/config.h -c -o nohotspot-skiplist/nohotspot_ops.o nohotspot-skiplist/nohotspot_ops.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/skiplist.d -MP -include masstree/config.h -c -o nohotspot-skiplist/skiplist.o nohotspot-skiplist/skiplist.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/ptst.d -MP -include masstree/config.h -c -o nohotspot-skiplist/ptst.o nohotspot-skiplist/ptst.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/.d -MP -include masstree/config.h -o workload workload.o bwtree.o artolc.o btree.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o masstree/mtIndexAPI.a ./pcm/libPCM.a -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+root@e72e2891da0b:/workspace# make run_all TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/intset.d -MP -include masstree/config.h -c -o nohotspot-skiplist/intset.o nohotspot-skiplist/intset.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/background.d -MP -include masstree/config.h -c -o nohotspot-skiplist/background.o nohotspot-skiplist/background.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/garbagecoll.d -MP -include masstree/config.h -c -o nohotspot-skiplist/garbagecoll.o nohotspot-skiplist/garbagecoll.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/nohotspot_ops.d -MP -include masstree/config.h -c -o nohotspot-skiplist/nohotspot_ops.o nohotspot-skiplist/nohotspot_ops.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/skiplist.d -MP -include masstree/config.h -c -o nohotspot-skiplist/skiplist.o nohotspot-skiplist/skiplist.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/ptst.d -MP -include masstree/config.h -c -o nohotspot-skiplist/ptst.o nohotspot-skiplist/ptst.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/.d -MP -include masstree/config.h -o workload workload.o bwtree.o artolc.o btree.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o masstree/mtIndexAPI.a ./pcm/libPCM.a -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/workload_string.d -MP -include masstree/config.h -c -o workload_string.o workload_string.cpp
+In file included from workload_string.cpp:2:0:
+index.h: In instantiation of 'bool BTreeRTMIndex<KeyType, KeyComparator>::insert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:87:14: error: invalid cast from type 'GenericKey<31ul>' to type 'uint64_t {aka long unsigned int}'
+     bt_insert(tree, (uint64_t)key, value);
+              ^
+index.h: In instantiation of 'uint64_t BTreeRTMIndex<KeyType, KeyComparator>::find(KeyType, std::vector<long unsigned int, std::allocator<long unsigned int> >*, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:94:21: error: cannot convert 'GenericKey<31ul>' to 'uint64_t {aka long unsigned int}' for argument '2' to 'uint64_t bt_find(btree_t*, uint64_t, int*)'
+     result = bt_find(tree, key, &success);
+                     ^
+index.h: In instantiation of 'bool BTreeRTMIndex<KeyType, KeyComparator>::upsert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+index.h:101:14: error: invalid cast from type 'GenericKey<31ul>' to type 'uint64_t {aka long unsigned int}'
+     bt_upsert(tree, (uint64_t)key, value);
+              ^
+In file included from index.h:20:0,
+                 from workload_string.cpp:2:
+index.h: In instantiation of 'bool SkipListIndex<KeyType, KeyComparator>::insert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:26:50: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_insert(steps, a, b, c) sl_do_operation((steps), (a), INSERT, (b), (c));
+                                                  ^
+index.h:160:5: note: in expansion of macro 'sl_insert'
+     sl_insert(&skiplist_steps, set, key, &value);
+     ^
+index.h: In instantiation of 'uint64_t SkipListIndex<KeyType, KeyComparator>::find(KeyType, std::vector<long unsigned int, std::allocator<long unsigned int> >*, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:24:49: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_contains(steps, a, b) sl_do_operation((steps), (a), CONTAINS, (b), NULL);
+                                                 ^
+index.h:170:5: note: in expansion of macro 'sl_contains'
+     sl_contains(&skiplist_steps, set, key);
+     ^
+index.h: In instantiation of 'bool SkipListIndex<KeyType, KeyComparator>::upsert(KeyType, uint64_t, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:25:47: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_delete(steps, a, b) sl_do_operation((steps), (a), DELETE, (b), NULL);
+                                               ^
+index.h:180:5: note: in expansion of macro 'sl_delete'
+     sl_delete(&skiplist_steps, set, key);
+     ^
+./nohotspot-skiplist/nohotspot_ops.h:26:50: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_insert(steps, a, b, c) sl_do_operation((steps), (a), INSERT, (b), (c));
+                                                  ^
+index.h:181:5: note: in expansion of macro 'sl_insert'
+     sl_insert(&skiplist_steps, set, key, &value);
+     ^
+index.h: In instantiation of 'uint64_t SkipListIndex<KeyType, KeyComparator>::scan(KeyType, int, threadinfo*) [with KeyType = GenericKey<31ul>; KeyComparator = GenericComparator<31ul>; uint64_t = long unsigned int]':
+workload_string.cpp:485:1:   required from here
+./nohotspot-skiplist/nohotspot_ops.h:28:60: error: cannot convert 'GenericKey<31ul>' to 'sl_key_t {aka long unsigned int}' for argument '4' to 'int sl_do_operation(long int*, set_t*, sl_optype_t, sl_key_t, val_t)'
+ #define sl_scan(steps, a, start_key, range) sl_do_operation((steps), (a), SCAN, (start_key), (void *)&(range))
+                                                            ^
+index.h:187:5: note: in expansion of macro 'sl_scan'
+     sl_scan(&skiplist_steps, set, key, range);
+     ^
+Makefile:47: recipe for target 'workload_string.o' failed
+make: *** [workload_string.o] Error 1
+root@e72e2891da0b:/workspace# make workload TYPE=masstree CC=gcc-5 CXX="g++-5 -std=gnu++11"
+skip list object files: ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o
+rm -f rm ./nohotspot-skiplist/*.o
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/intset.d -MP -include masstree/config.h -c -o nohotspot-skiplist/intset.o nohotspot-skiplist/intset.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/background.d -MP -include masstree/config.h -c -o nohotspot-skiplist/background.o nohotspot-skiplist/background.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/garbagecoll.d -MP -include masstree/config.h -c -o nohotspot-skiplist/garbagecoll.o nohotspot-skiplist/garbagecoll.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/nohotspot_ops.d -MP -include masstree/config.h -c -o nohotspot-skiplist/nohotspot_ops.o nohotspot-skiplist/nohotspot_ops.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/skiplist.d -MP -include masstree/config.h -c -o nohotspot-skiplist/skiplist.o nohotspot-skiplist/skiplist.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/ptst.d -MP -include masstree/config.h -c -o nohotspot-skiplist/ptst.o nohotspot-skiplist/ptst.cpp -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+g++-5 -std=gnu++11 -g -O3 -Wno-invalid-offsetof -mcx16 -DNDEBUG -DBWTREE_NODEBUG -MD -MF masstree/.deps/.d -MP -include masstree/config.h -o workload workload.o bwtree.o artolc.o btree.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/skiplist.o ./nohotspot-skiplist/ptst.o masstree/mtIndexAPI.a ./pcm/libPCM.a -lpapi -ltcmalloc_minimal -lpthread -lm -ltbb
+root@e72e2891da0b:/workspace# ls
+ARTOLC    Dockerfile  YCSB                btree-rtm  gen_workload.py            indexkey.h    nohotspot-skiplist  read_email_key.py    run_all.sh  util.h        workload.o           workload_string.cpp
+BTreeOLC  Makefile    allocatortracker.h  btree.o    generate_all_workloads.sh  masstree      papi_util.cpp       rotate-skiplist      runs.txt    workload      workload_config.inp  workloads
+BwTree    README.md   artolc.o            bwtree.o   index.h                    microbench.h  pcm                 rotate-skiplist-cpp  tbb         workload.cpp  workload_spec
+root@e72e2891da0b:/workspace# ./workload
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Usage:
+1. workload type: a, c, e, none
+   "none" type means we just load the file and exit. 
+This serves as the base line for microbenchamrks
+2. key distribution: rand, mono
+3. index type: bwtree skiplist masstree artolc btreeolc btreertm
+4. number of threads (integer)
+   --hyper: Whether to pin all threads on NUMA node 0
+   --mem: Whether to monitor memory access
+   --numa: Whether to monitor NUMA throughput
+   --insert-only: Whether to only execute insert operations
+root@e72e2891da0b:/workspace# ./workload a rand masstree 1
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 1
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Finished loading workload file (mem = 1493112)
+Populating the index with 50000000 keys using 1 threads
+insert 1.86653
+# of Txn: 10000000
+sum = 0
+read/update 1.83123
+Finished running benchmark (mem = 4132572)
+Cleaning up
+root@e72e2891da0b:/workspace# ./workload a rand masstree 1
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 1
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Finished loading workload file (mem = 1493124)
+Populating the index with 50000000 keys using 1 threads
+insert 1.95362
+# of Txn: 10000000
+sum = 0
+read/update 1.84704
+Finished running benchmark (mem = 4136136)
+Cleaning up
+root@e72e2891da0b:/workspace# ./workload a rand ./workload a rand artolc 1^C
+root@e72e2891da0b:/workspace# ^C
+root@e72e2891da0b:/workspace# ./workload a rand artolc 1
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 1
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Finished loading workload file (mem = 1493256)
+Populating the index with 50000000 keys using 1 threads
+insert 3.57548
+# of Txn: 10000000
+sum = 0
+read/update 3.39198
+Finished running benchmark (mem = 2371164)
+Cleaning up
+root@e72e2891da0b:/workspace# ./workload a rand bwtree 1
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 1
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Finished loading workload file (mem = 1493084)
+Inner prealloc size = 176; Leaf prealloc size = 1728
+Populating the index with 50000000 keys using 1 threads
+Statistical counters:
+    counter INSERT = 50000000
+    counter UPSERT = 0
+    counter DELETE = 0
+    counter READ = 0
+    counter LEAF_SPLIT = 497299
+    counter INNER_SPLIT = 11591
+    counter LEAF_MERGE = 0
+    counter INNER_MERGE = 0
+    counter LEAF_CONSOLIDATE = 2344826
+    counter INNER_CONSOLIDATE = 263740
+    counter MODIFY_ABORT = 508893
+    counter READ_ABORT = 0
+    counter ADD_TO_GC = 2608566
+    counter SCAN_GC_CHAIN = 1700271
+insert 1.12505
+# of Txn: 10000000
+Statistical counters:
+    counter INSERT = 0
+    counter UPSERT = 5000763
+    counter DELETE = 0
+    counter READ = 4999237
+    counter LEAF_SPLIT = 32932
+    counter INNER_SPLIT = 1531
+    counter LEAF_MERGE = 0
+    counter INNER_MERGE = 0
+    counter LEAF_CONSOLIDATE = 226879
+    counter INNER_CONSOLIDATE = 18486
+    counter MODIFY_ABORT = 34463
+    counter READ_ABORT = 0
+    counter ADD_TO_GC = 245365
+    counter SCAN_GC_CHAIN = 81323
+sum = 0
+read/update 1.24005
+Finished running benchmark (mem = 2956572)
+Cleaning up
+root@e72e2891da0b:/workspace# 

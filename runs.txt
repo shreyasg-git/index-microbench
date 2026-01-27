@@ -1,0 +1,159 @@
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ date
+Tue Jan 27 07:10:36 PM IST 2026
+(base) shreyasbg@anton ~/Desktop/dbms/index-microbench (master)$ make generate_workload
+skip list object files: ./nohotspot-skiplist/background.o ./nohotspot-skiplist/garbagecoll.o ./nohotspot-skiplist/intset.o ./nohotspot-skiplist/nohotspot_ops.o ./nohotspot-skiplist/ptst.o ./nohotspot-skiplist/skiplist.o
+./generate_all_workloads.sh
+workload = workloade
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:51:55:887 0 sec: 801 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=864, Max=467, Min=14, Avg=24.22, 90=29, 99=53, 99.9=178, 99.99=467] 
+2026-01-27 18:52:05:846 10 sec: 5935220 operations; 593382.56 current ops/sec; est completion in 1 minutes [INSERT: Count=5934554, Max=65727, Min=1, Avg=1.17, 90=1, 99=3, 99.9=7, 99.99=20] 
+2026-01-27 18:52:15:846 20 sec: 11816920 operations; 588170 current ops/sec; est completion in 1 minutes [INSERT: Count=5881704, Max=74239, Min=1, Avg=1.17, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:52:25:846 30 sec: 17768876 operations; 595195.6 current ops/sec; est completion in 55 seconds [INSERT: Count=5951957, Max=84799, Min=1, Avg=1.15, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:52:35:846 40 sec: 23673531 operations; 590465.5 current ops/sec; est completion in 45 seconds [INSERT: Count=5904652, Max=48159, Min=1, Avg=1.15, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:52:45:846 50 sec: 29566183 operations; 589265.2 current ops/sec; est completion in 35 seconds [INSERT: Count=5892648, Max=61791, Min=1, Avg=1.15, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:52:55:846 60 sec: 35624184 operations; 605800.1 current ops/sec; est completion in 25 seconds [INSERT: Count=6057962, Max=30463, Min=1, Avg=1.12, 90=1, 99=3, 99.9=6, 99.99=19] 
+2026-01-27 18:53:05:846 70 sec: 41361984 operations; 573780 current ops/sec; est completion in 15 seconds [INSERT: Count=5737643, Max=78847, Min=1, Avg=1.16, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:53:15:846 80 sec: 47000639 operations; 563865.5 current ops/sec; est completion in 6 seconds [INSERT: Count=5638845, Max=94015, Min=1, Avg=1.17, 90=1, 99=3, 99.9=7, 99.99=21] 
+2026-01-27 18:53:21:305 85 sec: 50000000 operations; 549534.81 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2999171, Max=38943, Min=1, Avg=1.17, 90=2, 99=3, 99.9=7, 99.99=24] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:53:21:498 0 sec: 579 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=32, Max=43, Min=20, Avg=25.38, 90=33, 99=43, 99.9=43, 99.99=43] [SCAN: Count=698, Max=300, Min=19, Avg=27.31, 90=34, 99=56, 99.9=159, 99.99=300] 
+2026-01-27 18:53:31:458 10 sec: 4902276 operations; 490169.7 current ops/sec; est completion in 11 seconds [INSERT: Count=245531, Max=68, Min=1, Avg=1.18, 90=2, 99=3, 99.9=9, 99.99=24] [SCAN: Count=4656834, Max=120255, Min=1, Avg=1.27, 90=2, 99=3, 99.9=9, 99.99=26] 
+2026-01-27 18:53:41:458 20 sec: 9991018 operations; 508874.2 current ops/sec; est completion in 1 seconds [INSERT: Count=253945, Max=202, Min=1, Avg=1.14, 90=1, 99=3, 99.9=7, 99.99=28] [SCAN: Count=4834339, Max=79807, Min=1, Avg=1.23, 90=2, 99=3, 99.9=7, 99.99=26] 
+2026-01-27 18:53:41:479 20 sec: 10000000 operations; 449100 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=440, Max=7, Min=1, Avg=1.29, 90=2, 99=4, 99.9=7, 99.99=7] [SCAN: Count=8181, Max=24, Min=1, Avg=1.26, 90=2, 99=4, 99.9=8, 99.99=16] 
+workload = workloadc
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:56:04:071 0 sec: 564 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=643, Max=411, Min=15, Avg=26.4, 90=34, 99=69, 99.9=173, 99.99=411] 
+2026-01-27 18:56:14:037 10 sec: 6072479 operations; 607191.5 current ops/sec; est completion in 1 minutes [INSERT: Count=6072266, Max=1149, Min=1, Avg=1.13, 90=1, 99=3, 99.9=7, 99.99=23] 
+2026-01-27 18:56:24:037 20 sec: 12263123 operations; 619064.4 current ops/sec; est completion in 1 minutes [INSERT: Count=6190487, Max=74943, Min=1, Avg=1.13, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:56:34:037 30 sec: 18258810 operations; 599568.7 current ops/sec; est completion in 53 seconds [INSERT: Count=5995579, Max=220031, Min=1, Avg=1.19, 90=1, 99=3, 99.9=7, 99.99=18] 
+2026-01-27 18:56:44:037 40 sec: 24373849 operations; 611503.9 current ops/sec; est completion in 43 seconds [INSERT: Count=6115030, Max=146687, Min=1, Avg=1.16, 90=1, 99=3, 99.9=7, 99.99=18] 
+2026-01-27 18:56:54:037 50 sec: 30559250 operations; 618540.1 current ops/sec; est completion in 32 seconds [INSERT: Count=6185419, Max=79295, Min=1, Avg=1.13, 90=1, 99=3, 99.9=6, 99.99=18] 
+2026-01-27 18:57:04:037 60 sec: 36375276 operations; 581602.6 current ops/sec; est completion in 23 seconds [INSERT: Count=5816057, Max=85439, Min=1, Avg=1.21, 90=1, 99=3, 99.9=7, 99.99=19] 
+2026-01-27 18:57:14:037 70 sec: 41965676 operations; 559040 current ops/sec; est completion in 14 seconds [INSERT: Count=5590382, Max=80191, Min=1, Avg=1.21, 90=2, 99=3, 99.9=8, 99.99=20] 
+2026-01-27 18:57:24:037 80 sec: 47596339 operations; 563066.3 current ops/sec; est completion in 5 seconds [INSERT: Count=5630604, Max=120319, Min=1, Avg=1.21, 90=2, 99=3, 99.9=8, 99.99=19] 
+2026-01-27 18:57:28:287 84 sec: 50000000 operations; 565567.29 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2403533, Max=54207, Min=1, Avg=1.22, 90=1, 99=3, 99.9=8, 99.99=32] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 18:57:28:478 0 sec: 435 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=485, Max=410, Min=17, Avg=29.24, 90=38, 99=81, 99.9=410, 99.99=410] 
+2026-01-27 18:57:38:444 10 sec: 5190021 operations; 518958.6 current ops/sec; est completion in 10 seconds [READ: Count=5189737, Max=111359, Min=1, Avg=1.2, 90=1, 99=3, 99.9=8, 99.99=26] 
+2026-01-27 18:57:47:080 18 sec: 10000000 operations; 556968.39 current ops/sec; [READ: Count=4809778, Max=7707, Min=1, Avg=1.14, 90=1, 99=3, 99.9=7, 99.99=18] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] 
+workload = workloada
+key type = monoint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:00:00:286 0 sec: 487 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=532, Max=1465, Min=34, Avg=52.32, 90=60, 99=104, 99.9=276, 99.99=1465] 
+2026-01-27 19:00:10:235 10 sec: 7551474 operations; 755098.7 current ops/sec; est completion in 57 seconds [INSERT: Count=7551275, Max=69247, Min=0, Avg=0.41, 90=1, 99=3, 99.9=7, 99.99=24] 
+2026-01-27 19:00:20:235 20 sec: 15623101 operations; 807162.7 current ops/sec; est completion in 45 seconds [INSERT: Count=8071540, Max=80127, Min=0, Avg=0.23, 90=1, 99=2, 99.9=5, 99.99=16] 
+2026-01-27 19:00:30:235 30 sec: 23501042 operations; 787794.1 current ops/sec; est completion in 34 seconds [INSERT: Count=7877921, Max=63103, Min=0, Avg=0.38, 90=1, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:00:40:235 40 sec: 31336388 operations; 783534.6 current ops/sec; est completion in 24 seconds [INSERT: Count=7835371, Max=126719, Min=0, Avg=0.3, 90=1, 99=2, 99.9=5, 99.99=14] 
+2026-01-27 19:00:50:235 50 sec: 39107065 operations; 777067.7 current ops/sec; est completion in 14 seconds [INSERT: Count=7770665, Max=93055, Min=0, Avg=0.35, 90=1, 99=2, 99.9=5, 99.99=14] 
+2026-01-27 19:01:00:235 60 sec: 47040662 operations; 793359.7 current ops/sec; est completion in 4 seconds [INSERT: Count=7933655, Max=277247, Min=0, Avg=0.21, 90=1, 99=2, 99.9=5, 99.99=16] 
+2026-01-27 19:01:03:842 63 sec: 50000000 operations; 820443.03 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=2959041, Max=700, Min=0, Avg=0.27, 90=1, 99=2, 99.9=5, 99.99=14] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:01:04:004 0 sec: 425 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=237, Max=52, Min=15, Avg=19.44, 90=26, 99=48, 99.9=52, 99.99=52] [UPDATE: Count=254, Max=632, Min=27, Avg=38.08, 90=46, 99=73, 99.9=632, 99.99=632] 
+2026-01-27 19:01:13:975 10 sec: 7247348 operations; 724692.3 current ops/sec; est completion in 4 seconds [READ: Count=3624959, Max=42911, Min=0, Avg=0.11, 90=0, 99=2, 99.9=4, 99.99=14] [UPDATE: Count=3623678, Max=1391, Min=0, Avg=0.55, 90=1, 99=2, 99.9=5, 99.99=22] 
+2026-01-27 19:01:17:735 13 sec: 10000000 operations; 731893.65 current ops/sec; [READ: Count=1375340, Max=19823, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [UPDATE: Count=1375532, Max=59135, Min=0, Avg=0.55, 90=1, 99=2, 99.9=4, 99.99=14] 
+workload = workloade
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:03:13:390 0 sec: 781 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=851, Max=288, Min=14, Avg=22.76, 90=27, 99=55, 99.9=192, 99.99=288] 
+2026-01-27 19:03:23:350 10 sec: 9270886 operations; 927010.5 current ops/sec; est completion in 44 seconds [INSERT: Count=9270338, Max=7419, Min=0, Avg=0.07, 90=0, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:03:33:350 20 sec: 18292990 operations; 902210.4 current ops/sec; est completion in 35 seconds [INSERT: Count=9021801, Max=135551, Min=0, Avg=0.11, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:03:43:350 30 sec: 27721600 operations; 942861 current ops/sec; est completion in 25 seconds [INSERT: Count=9428904, Max=76671, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:03:53:350 40 sec: 37088927 operations; 936732.7 current ops/sec; est completion in 14 seconds [INSERT: Count=9367319, Max=110079, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:04:03:350 50 sec: 46447635 operations; 935870.8 current ops/sec; est completion in 4 seconds [INSERT: Count=9358695, Max=51199, Min=0, Avg=0.06, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:04:07:287 53 sec: 50000000 operations; 902302.51 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=3552092, Max=116671, Min=0, Avg=0.12, 90=0, 99=2, 99.9=4, 99.99=14] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloade -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:04:07:460 0 sec: 537 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=35, Max=64, Min=17, Avg=24.74, 90=35, 99=64, 99.9=64, 99.99=64] [SCAN: Count=593, Max=298, Min=16, Avg=23.99, 90=29, 99=61, 99.9=242, 99.99=298] 
+2026-01-27 19:04:17:426 10 sec: 7949452 operations; 794891.5 current ops/sec; est completion in 3 seconds [INSERT: Count=396710, Max=1095, Min=0, Avg=0.1, 90=0, 99=2, 99.9=5, 99.99=21] [SCAN: Count=7553159, Max=108927, Min=0, Avg=0.15, 90=0, 99=2, 99.9=5, 99.99=19] 
+2026-01-27 19:04:19:870 12 sec: 10000000 operations; 839013.09 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=102454, Max=48, Min=0, Avg=0.04, 90=0, 99=2, 99.9=4, 99.99=14] [SCAN: Count=1947049, Max=563, Min=0, Avg=0.05, 90=0, 99=2, 99.9=4, 99.99=17] 
+workload = workloadc
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:05:11:527 0 sec: 757 operations; 757000 current ops/sec; est completion in 1 minutes [INSERT: Count=843, Max=269, Min=13, Avg=17.45, 90=23, 99=40, 99.9=128, 99.99=269] 
+2026-01-27 19:05:21:496 10 sec: 9562598 operations; 956184.1 current ops/sec; est completion in 43 seconds [INSERT: Count=9562049, Max=41055, Min=0, Avg=0.07, 90=0, 99=2, 99.9=4, 99.99=16] 
+2026-01-27 19:05:31:496 20 sec: 19215073 operations; 965247.5 current ops/sec; est completion in 33 seconds [INSERT: Count=9652450, Max=233087, Min=0, Avg=0.09, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:05:41:496 30 sec: 28913148 operations; 969807.5 current ops/sec; est completion in 22 seconds [INSERT: Count=9698098, Max=81279, Min=0, Avg=0.06, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:05:51:496 40 sec: 38315129 operations; 940198.1 current ops/sec; est completion in 13 seconds [INSERT: Count=9402038, Max=206463, Min=0, Avg=0.09, 90=0, 99=2, 99.9=4, 99.99=14] 
+2026-01-27 19:06:01:496 50 sec: 44612427 operations; 629729.8 current ops/sec; est completion in 7 seconds [INSERT: Count=6297224, Max=207615, Min=0, Avg=0.64, 90=1, 99=2, 99.9=11, 99.99=48] 
+2026-01-27 19:06:07:304 55 sec: 50000000 operations; 927612.43 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=5387298, Max=54495, Min=0, Avg=0.1, 90=0, 99=2, 99.9=5, 99.99=17] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloadc -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:06:07:515 0 sec: 468 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=518, Max=297, Min=13, Avg=22.76, 90=29, 99=53, 99.9=113, 99.99=297] 
+2026-01-27 19:06:17:484 10 sec: 7693062 operations; 769259.4 current ops/sec; est completion in 3 seconds [READ: Count=7692822, Max=206335, Min=0, Avg=0.17, 90=0, 99=2, 99.9=5, 99.99=18] 
+2026-01-27 19:06:20:751 13 sec: 10000000 operations; 706133.46 current ops/sec; [READ: Count=2306660, Max=132735, Min=0, Avg=0.29, 90=0, 99=2, 99.9=5, 99.99=16] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] 
+workload = workloada
+key type = randint
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -load
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:07:12:170 0 sec: 292 operations; ∞ current ops/sec; est completion in 0 seconds [INSERT: Count=318, Max=653, Min=27, Avg=44.65, 90=55, 99=95, 99.9=653, 99.99=653] 
+2026-01-27 19:07:22:142 10 sec: 7817459 operations; 781716.7 current ops/sec; est completion in 54 seconds [INSERT: Count=7817479, Max=84351, Min=0, Avg=0.24, 90=1, 99=2, 99.9=6, 99.99=22] 
+2026-01-27 19:07:32:141 20 sec: 15540923 operations; 772346.4 current ops/sec; est completion in 45 seconds [INSERT: Count=7723373, Max=75647, Min=0, Avg=0.58, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:07:42:141 30 sec: 22934823 operations; 739390 current ops/sec; est completion in 36 seconds [INSERT: Count=7393875, Max=184063, Min=0, Avg=0.6, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:07:52:141 40 sec: 30693614 operations; 775879.1 current ops/sec; est completion in 26 seconds [INSERT: Count=7758818, Max=88575, Min=0, Avg=0.38, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:02:141 50 sec: 38586191 operations; 789257.7 current ops/sec; est completion in 15 seconds [INSERT: Count=7892573, Max=7103, Min=0, Avg=0.57, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:12:141 60 sec: 46330234 operations; 774404.3 current ops/sec; est completion in 5 seconds [INSERT: Count=7743976, Max=128383, Min=0, Avg=0.5, 90=1, 99=2, 99.9=5, 99.99=17] 
+2026-01-27 19:08:16:844 64 sec: 50000000 operations; 780303.21 current ops/sec; [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [INSERT: Count=3669588, Max=13959, Min=0, Avg=0.65, 90=1, 99=2, 99.9=5, 99.99=16] 
+/home/shreyasbg/Desktop/Desktop/jdk-19/bin/java -cp /home/shreyasbg/Desktop/dbms/index-microbench/YCSB/basic-binding/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/conf:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/htrace-core4-4.1.0-incubating.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-core-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/jackson-mapper-asl-1.9.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/HdrHistogram-2.1.4.jar:/home/shreyasbg/Desktop/dbms/index-microbench/YCSB/lib/core-0.11.0.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+YCSB Client 0.11.0
+Command line: -db com.yahoo.ycsb.BasicDB -P workload_spec/workloada -s -t
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2026-01-27 19:08:17:010 0 sec: 364 operations; ∞ current ops/sec; est completion in 0 seconds [READ: Count=177, Max=286, Min=17, Avg=27.49, 90=31, 99=45, 99.9=286, 99.99=286] [UPDATE: Count=236, Max=708, Min=30, Avg=48.06, 90=56, 99=90, 99.9=708, 99.99=708] 
+2026-01-27 19:08:26:975 10 sec: 7148931 operations; 714785.22 current ops/sec; est completion in 4 seconds [READ: Count=3574222, Max=1182, Min=0, Avg=0.12, 90=0, 99=2, 99.9=5, 99.99=20] [UPDATE: Count=3574947, Max=60799, Min=0, Avg=0.86, 90=1, 99=2, 99.9=7, 99.99=28] 
+2026-01-27 19:08:30:902 13 sec: 10000000 operations; 726017.06 current ops/sec; [READ: Count=1424838, Max=445, Min=0, Avg=0.08, 90=0, 99=2, 99.9=5, 99.99=18] [CLEANUP: Count=1, Max=1, Min=1, Avg=1, 90=1, 99=1, 99.9=1, 99.99=1] [UPDATE: Count=1425580, Max=103231, Min=0, Avg=0.64, 90=1, 99=2, 99.9=5, 99.99=17] 
+
