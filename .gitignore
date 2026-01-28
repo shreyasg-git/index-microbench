@@ -6,7 +6,7 @@
 workload
 workload_string
 workloads
-result_*
+# result_*
 masstree/.deps/*.d
 *.cache
 YCSB
