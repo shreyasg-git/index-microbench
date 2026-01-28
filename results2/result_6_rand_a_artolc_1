@@ -1,0 +1,21 @@
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 6
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Populating the index with 50000000 keys using 6 threads
+PinToCore() returns non-0
+Finished loading workload file (mem = 1493020)

@@ -1,0 +1,57 @@
+Number of physical cores: 4
+Number of logical cores: 8
+Number of online logical cores: 8
+Threads (logical cores) per physical core: 2
+Num sockets: 1
+Physical cores per socket: 4
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 4
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2400000000 Hz
+Package thermal spec power: 45 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt; 
+Number of threads: 2
+  BwTree will collect statistics
+Leaf delta chain threshold: 24; Inner delta chain threshold: 2
+  BTree element pair count: 255
+Loaded 50000000 keys
+Inner prealloc size = 176; Leaf prealloc size = 1728
+Populating the index with 50000000 keys using 2 threads
+Statistical counters:
+    counter INSERT = 50000000
+    counter UPSERT = 0
+    counter DELETE = 0
+    counter READ = 0
+    counter LEAF_SPLIT = 502467
+    counter INNER_SPLIT = 11877
+    counter LEAF_MERGE = 0
+    counter INNER_MERGE = 0
+    counter LEAF_CONSOLIDATE = 2347048
+    counter INNER_CONSOLIDATE = 266792
+    counter MODIFY_ABORT = 515327
+    counter READ_ABORT = 0
+    counter ADD_TO_GC = 2613898
+    counter SCAN_GC_CHAIN = 1453386
+# of Txn: 10000000
+Statistical counters:
+    counter INSERT = 0
+    counter UPSERT = 5000763
+    counter DELETE = 0
+    counter READ = 4999237
+    counter LEAF_SPLIT = 28813
+    counter INNER_SPLIT = 1242
+    counter LEAF_MERGE = 0
+    counter INNER_MERGE = 0
+    counter LEAF_CONSOLIDATE = 222421
+    counter INNER_CONSOLIDATE = 16050
+    counter MODIFY_ABORT = 31110
+    counter READ_ABORT = 0
+    counter ADD_TO_GC = 238471
+    counter SCAN_GC_CHAIN = 51747
+Finished loading workload file (mem = 1493096)
+[1;32minsert 1.73252[0m
+sum = 0
+[1;31mread/update 2.1555[0m
+Finished running benchmark (mem = 2947336)
+Cleaning up
