@@ -5,7 +5,7 @@ RUNS=1
 for RUN in `seq 1 $RUNS`; do
   for KEY_TYPE in mono rand rdtsc; do
     for WORKLOAD_TYPE in c a e; do
-      for THREAD_COUNT in 1 2 20 40; do
+      for THREAD_COUNT in 1 2 4 6 8; do
         # Use only one workload and many threads for rdtsc keys
         if [ "$KEY_TYPE" = "rdtsc" ] && ([ "$WORKLOAD_TYPE" != "c" ] || [ "$THREAD_COUNT" -eq 1 ] || [ "$THREAD_COUNT" -eq 2 ]); then
           continue
